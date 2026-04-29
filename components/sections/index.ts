@@ -1,0 +1,11 @@
+export { HeroSection } from './HeroSection';
+export { ClientsBar } from './ClientsBar';
+export { StatsBar } from './StatsBar';
+export { DiagnosticoCTA } from './DiagnosticoCTA';
+export { AssistantTeaser } from './AssistantTeaser';
+export { ValuePillars } from './ValuePillars';
+export { PortfolioGrid } from './PortfolioGrid';
+export { IndustriesGrid } from './IndustriesGrid';
+export { EngineeringPhilosophy } from './EngineeringPhilosophy';
+export { SocialMediaSection } from './SocialMediaSection';
+export { FinalCTA } from './FinalCTA';

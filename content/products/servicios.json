@@ -1,0 +1,121 @@
+{
+  "category": "servicios",
+  "titleEs": "Servicios Técnicos",
+  "titleEn": "Technical Services",
+  "descriptionEs": "Instalación, empalmes vulcanizados y mecánicos, mantenimiento preventivo y correctivo, proyectos llave en mano.",
+  "descriptionEn": "Installation, vulcanized and mechanical splicing, preventive and corrective maintenance, turn-key projects.",
+  "heroImage": "/images/hero/logistica.jpeg",
+  "updatedAt": "2026-04-01",
+  "products": [
+    {
+      "slug": "instalacion-puesta-en-marcha",
+      "nameEs": "Instalación y Puesta en Marcha",
+      "nameEn": "Installation and Commissioning",
+      "shortDescEs": "Montaje completo con alineación de precisión y arranque asistido por ingenieros GBS.",
+      "shortDescEn": "Complete assembly with precision alignment and GBS-assisted startup.",
+      "fullDescEs": "Servicio integral de instalación de sistemas transportadores incluyendo montaje estructural, colocación de banda, alineación de componentes, tensión inicial, pruebas en vacío y en carga, y documentación técnica completa del proyecto. Equipo propio con experiencia en plantas mineras, cementeras, alimenticias y logísticas.",
+      "fullDescEn": "Comprehensive installation service for conveyor systems including structural assembly, belt placement, component alignment, initial tensioning, no-load and loaded testing, and complete technical project documentation. In-house team with experience in mining, cement, food, and logistics plants.",
+      "image": "/images/products/hero-fabricacion-bandas.jpg",
+      "specs": {
+        "coverage": "Nacional",
+        "response": "Según agenda y urgencia",
+        "deliverables": "Informe técnico completo, protocolos"
+      },
+      "applications": [
+        "todas las industrias"
+      ],
+      "whatsappMsgEs": "Hola GBS, necesito servicio de Instalación y Puesta en Marcha. Mi proyecto es:",
+      "whatsappMsgEn": "Hi GBS, I need Installation and Commissioning service. My project is:"
+    },
+    {
+      "slug": "empalmes-vulcanizados",
+      "nameEs": "Empalmes Vulcanizados",
+      "nameEn": "Vulcanized Splicing",
+      "shortDescEs": "Empalmes en caliente para bandas de trabajo pesado. Máxima resistencia y durabilidad.",
+      "shortDescEn": "Hot splicing for heavy-duty belts. Maximum strength and durability.",
+      "fullDescEs": "Empalmes vulcanizados realizados en campo con prensas portátiles de vulcanización. Procedimiento ideal para bandas de caucho en aplicaciones pesadas donde se requiere que la unión tenga resistencia igual o superior a la banda. Incluye empalmes en caliente y en frío según tipo de banda y condiciones del sitio.",
+      "fullDescEn": "Vulcanized splices performed in the field with portable vulcanizing presses. Ideal procedure for rubber belts in heavy applications requiring the joint to have resistance equal to or greater than the belt itself. Includes hot and cold splices depending on belt type and site conditions.",
+      "image": "/images/team/empalme-vulcanizado.jpg",
+      "specs": {
+        "types": "Caliente y frío",
+        "equipment": "Prensas vulcanizadoras portátiles",
+        "warranty": "Garantía por empalme"
+      },
+      "applications": [
+        "mineria",
+        "cemento",
+        "agregados",
+        "puertos"
+      ],
+      "whatsappMsgEs": "Hola GBS, necesito servicio de Empalmes Vulcanizados. Mi proyecto es:",
+      "whatsappMsgEn": "Hi GBS, I need Vulcanized Splicing service. My project is:"
+    },
+    {
+      "slug": "empalmes-mecanicos",
+      "nameEs": "Empalmes Mecánicos",
+      "nameEn": "Mechanical Splicing",
+      "shortDescEs": "Grapas de empalme para bandas livianas y soluciones rápidas en campo.",
+      "shortDescEn": "Fastener splicing for light-duty belts and quick field solutions.",
+      "fullDescEs": "Empalmes con grapas mecánicas (tipo Flexco o equivalentes) para bandas de tejido textil. Solución rápida que permite desarmar la banda en caso de mantenimiento o traslado. Ideal para bandas en agroindustria, logística, manufactura liviana y casos donde la durabilidad del empalme vulcanizado no es crítica.",
+      "fullDescEn": "Splicing with mechanical fasteners (Flexco type or equivalent) for textile-carcass belts. Quick solution allowing belt disassembly for maintenance or relocation. Ideal for belts in agribusiness, logistics, light manufacturing, and cases where vulcanized splice durability is not critical.",
+      "image": "/images/team/empalme-mecanico.png",
+      "specs": {
+        "types": "Grapas metálicas según ancho y carga",
+        "speed": "Más rápido que vulcanizado",
+        "reusable": "Permite desmontar"
+      },
+      "applications": [
+        "logistica",
+        "agroindustria",
+        "manufactura",
+        "alimentos"
+      ],
+      "whatsappMsgEs": "Hola GBS, necesito servicio de Empalmes Mecánicos. Mi proyecto es:",
+      "whatsappMsgEn": "Hi GBS, I need Mechanical Splicing service. My project is:"
+    },
+    {
+      "slug": "mantenimiento-preventivo-correctivo",
+      "nameEs": "Mantenimiento Preventivo y Correctivo",
+      "nameEn": "Preventive and Corrective Maintenance",
+      "shortDescEs": "Planes de mantenimiento programado y respuesta a fallas. Evita paradas inesperadas.",
+      "shortDescEn": "Scheduled maintenance plans and failure response. Prevents unexpected downtime.",
+      "fullDescEs": "Programas de mantenimiento preventivo con calendario ajustado al ciclo operativo del cliente: inspección de rodillos, raspadores, empalmes, tensión y alineación de banda, estado de estructura. Mantenimiento correctivo con respuesta rápida en caso de falla. Entregables con estado técnico detallado para planificación de repuestos.",
+      "fullDescEn": "Preventive maintenance programs with calendar adjusted to client's operating cycle: inspection of idlers, cleaners, splices, belt tension and alignment, structural condition. Corrective maintenance with rapid response in case of failure. Deliverables with detailed technical status for spare parts planning.",
+      "image": "/images/products/Mantenimiento.png",
+      "specs": {
+        "frequency": "Mensual, trimestral o semestral",
+        "deliverables": "Informes técnicos detallados",
+        "coverage": "Nacional"
+      },
+      "applications": [
+        "todas las industrias"
+      ],
+      "whatsappMsgEs": "Hola GBS, necesito servicio de Mantenimiento. Mi planta es:",
+      "whatsappMsgEn": "Hi GBS, I need Maintenance service. My plant is:"
+    },
+    {
+      "slug": "proyectos-llave-en-mano",
+      "nameEs": "Proyectos Llave en Mano",
+      "nameEn": "Turn-Key Projects",
+      "shortDescEs": "Ingeniería, suministro, fabricación, instalación y puesta en marcha en un solo contrato.",
+      "shortDescEn": "Engineering, supply, manufacturing, installation, and commissioning in a single contract.",
+      "fullDescEs": "Contratos llave en mano que consolidan todas las fases del proyecto bajo responsabilidad GBS: ingeniería bajo CEMA, suministro de banda y componentes, fabricación de estructuras, instalación, empalmes, puesta en marcha y capacitación al equipo de mantenimiento del cliente. Un solo interlocutor, un solo cronograma, una sola responsabilidad.",
+      "fullDescEn": "Turn-key contracts consolidating all project phases under GBS responsibility: CEMA engineering, belt and component supply, structure manufacturing, installation, splicing, commissioning, and client maintenance team training. One contact, one schedule, one responsibility.",
+      "image": "/images/products/hero-fabricacion-bandas.jpg",
+      "specs": {
+        "scope": "End-to-end",
+        "documentation": "Memoria de cálculo, planos, BOM, protocolos",
+        "standard": "CEMA Belt Book 7th Ed."
+      },
+      "applications": [
+        "mineria",
+        "cemento",
+        "agregados",
+        "alimentos",
+        "logistica"
+      ],
+      "whatsappMsgEs": "Hola GBS, me interesa un Proyecto Llave en Mano. Mi necesidad es:",
+      "whatsappMsgEn": "Hi GBS, I'm interested in a Turn-Key Project. My need is:"
+    }
+  ]
+}

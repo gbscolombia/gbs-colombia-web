@@ -1,0 +1,133 @@
+{
+  "category": "bandas-pesadas",
+  "titleEs": "Bandas de Trabajo Pesado",
+  "titleEn": "Heavy-Duty Conveyor Belts",
+  "descriptionEs": "Bandas de caucho diseñadas para las operaciones más exigentes: minería, cemento, agregados y puertos. Máxima resistencia a abrasión, impacto y condiciones severas bajo norma CEMA Belt Book 7ma Edición.",
+  "descriptionEn": "Rubber belts engineered for the most demanding operations: mining, cement, aggregates, and ports. Maximum resistance to abrasion, impact, and severe conditions under CEMA Belt Book 7th Edition standards.",
+  "heroImage": "/images/hero/Port Coal.jpeg",
+  "catalogPdf": "/catalogos/catalogo-bandas-pesadas.pdf",
+  "updatedAt": "2026-04-01",
+  "products": [
+    {
+      "slug": "banda-caucho-st-antiabrasiva",
+      "nameEs": "Banda de Caucho ST Antiabrasiva",
+      "nameEn": "ST Abrasion-Resistant Rubber Belt",
+      "shortDescEs": "Carcasa de cables de acero ST para alta tensión. Cubierta antiabrasiva Grado Y para minería y agregados.",
+      "shortDescEn": "ST steel cord carcass for high tension. Grade Y abrasion-resistant cover for mining and aggregates.",
+      "fullDescEs": "La banda ST antiabrasiva representa el estándar de oro para operaciones mineras de alta exigencia. Construida con cables de acero en el corazón de la banda para soportar tensiones elevadas en tramos largos, con cubierta de caucho Grado Y certificada bajo DIN 22102 para resistencia a abrasión severa. Diseñada para operaciones continuas 24/7 con material agresivo.",
+      "fullDescEn": "The ST abrasion-resistant belt represents the gold standard for demanding mining operations. Built with steel cord reinforcement at the belt's core to withstand high tensions across long conveyors, with Grade Y rubber cover certified under DIN 22102 for severe abrasion resistance. Engineered for 24/7 continuous operations with aggressive material.",
+      "image": "/images/products/alma-de-acero.jpg",
+      "specs": {
+        "cover": "Antiabrasivo Grado Y (DIN 22102)",
+        "carcass": "Acero ST 800 - ST 2500 N/mm",
+        "widthRange": "500mm - 2400mm",
+        "tempMax": "80°C continuo",
+        "standard": "CEMA Belt Book 7th Ed + DIN 22102"
+      },
+      "applications": [
+        "mineria",
+        "cemento",
+        "agregados",
+        "puertos"
+      ],
+      "whatsappMsgEs": "Hola GBS, quiero cotizar Banda de Caucho ST Antiabrasiva. Mi aplicación es:",
+      "whatsappMsgEn": "Hi GBS, I want to quote the ST Abrasion-Resistant Rubber Belt. My application is:"
+    },
+    {
+      "slug": "banda-caucho-multi-ply-ep",
+      "nameEs": "Banda Caucho Multi-Ply EP",
+      "nameEn": "Multi-Ply EP Rubber Belt",
+      "shortDescEs": "Carcasa textil EP (poliéster-nylon) con múltiples capas. Versátil para aplicaciones pesadas estándar.",
+      "shortDescEn": "EP (polyester-nylon) textile carcass with multiple plies. Versatile for standard heavy-duty applications.",
+      "fullDescEs": "Banda de caucho multi-ply con carcasa EP que combina resistencia a la tensión del poliéster (urdimbre) con flexibilidad y resistencia al impacto del nylon (trama). Disponible en 2 a 5 capas. Es la opción más común para cemento, agregados y minería de baja-media exigencia.",
+      "fullDescEn": "Multi-ply rubber belt with EP carcass combining polyester tensile strength (warp) with nylon flexibility and impact resistance (weft). Available in 2 to 5 plies. The most common choice for cement, aggregates, and low-to-medium demand mining.",
+      "image": "/images/products/banda-caucho.jpeg",
+      "specs": {
+        "cover": "Grado X, Y, Z según aplicación",
+        "carcass": "EP 125 a EP 500",
+        "widthRange": "400mm - 2200mm",
+        "tempMax": "60°C continuo",
+        "standard": "CEMA Belt Book 7th Ed + DIN 22102"
+      },
+      "applications": [
+        "cemento",
+        "agregados",
+        "mineria"
+      ],
+      "whatsappMsgEs": "Hola GBS, quiero cotizar Banda Caucho Multi-Ply EP. Mi aplicación es:",
+      "whatsappMsgEn": "Hi GBS, I want to quote the Multi-Ply EP Rubber Belt. My application is:"
+    },
+    {
+      "slug": "banda-resistente-temperatura",
+      "nameEs": "Banda Resistente a Temperatura",
+      "nameEn": "Heat-Resistant Belt",
+      "shortDescEs": "Cubiertas Clase T2/T3 para clínker caliente, fundición y materiales incandescentes.",
+      "shortDescEn": "T2/T3 class covers for hot clinker, foundry, and incandescent materials.",
+      "fullDescEs": "Banda especializada para transporte de materiales a alta temperatura. Cubierta de caucho EPDM o compuestos especiales clasificados T2 (hasta 125°C continuo) o T3 (hasta 150°C continuo). Aplicación típica: clínker saliendo del horno, escoria de fundición, asfalto caliente.",
+      "fullDescEn": "Specialized belt for high-temperature material handling. EPDM or special compound rubber cover classified T2 (up to 125°C continuous) or T3 (up to 150°C continuous). Typical applications: clinker exiting kiln, foundry slag, hot asphalt.",
+      "image": "/images/products/banda-alta-temperatura.jpeg",
+      "specs": {
+        "cover": "EPDM Clase T2 (125°C) / T3 (150°C)",
+        "carcass": "EP reforzada o ST",
+        "widthRange": "500mm - 1800mm",
+        "tempMax": "150°C continuo",
+        "standard": "CEMA Belt Book 7th Ed + DIN 22103"
+      },
+      "applications": [
+        "cemento",
+        "fundicion",
+        "mineria"
+      ],
+      "whatsappMsgEs": "Hola GBS, quiero cotizar Banda Resistente a Temperatura. Mi aplicación es:",
+      "whatsappMsgEn": "Hi GBS, I want to quote the Heat-Resistant Belt. My application is:"
+    },
+    {
+      "slug": "banda-resistente-impacto",
+      "nameEs": "Banda Resistente al Impacto",
+      "nameEn": "Impact-Resistant Belt",
+      "shortDescEs": "Carcasa reforzada para puntos de caída con material grueso. Absorbe impacto sin rasgarse.",
+      "shortDescEn": "Reinforced carcass for drop points with coarse material. Absorbs impact without tearing.",
+      "fullDescEs": "Banda con carcasa EP reforzada y cubierta de alta elasticidad diseñada específicamente para puntos de transferencia y caídas libres de materiales gruesos y afilados. Complemento ideal con camas de impacto bajo la banda para proteger la integridad estructural.",
+      "fullDescEn": "Belt with reinforced EP carcass and high-elasticity cover designed specifically for transfer points and free-fall drops of coarse, sharp materials. Ideal complement with impact beds under the belt to protect structural integrity.",
+      "image": "/images/products/resistente-impacto.jpeg",
+      "specs": {
+        "cover": "Caucho Grado X de alta resistencia",
+        "carcass": "EP reforzada 3-5 capas",
+        "widthRange": "500mm - 2200mm",
+        "tempMax": "70°C continuo",
+        "standard": "CEMA Belt Book 7th Ed"
+      },
+      "applications": [
+        "mineria",
+        "agregados",
+        "puertos"
+      ],
+      "whatsappMsgEs": "Hola GBS, quiero cotizar Banda Resistente al Impacto. Mi aplicación es:",
+      "whatsappMsgEn": "Hi GBS, I want to quote the Impact-Resistant Belt. My application is:"
+    },
+    {
+      "slug": "banda-resistente-aceite-quimicos",
+      "nameEs": "Banda Resistente a Aceites y Químicos",
+      "nameEn": "Oil and Chemical-Resistant Belt",
+      "shortDescEs": "Cubiertas especiales para materiales con hidrocarburos, grasas animales o agentes químicos.",
+      "shortDescEn": "Special covers for materials with hydrocarbons, animal fats, or chemical agents.",
+      "fullDescEs": "Banda con cubierta formulada con compuestos NBR (nitrilo) o específicamente resistentes a químicos. Ideal para transporte de carbón con restos de aceite, materias primas de reciclaje con solventes, o subproductos de procesos químicos. Evita el hinchamiento y degradación del caucho por contaminación.",
+      "fullDescEn": "Belt with cover formulated with NBR (nitrile) or chemical-specific compounds. Ideal for transporting coal with oil residues, recycling feedstock with solvents, or chemical process byproducts. Prevents rubber swelling and degradation from contamination.",
+      "image": "/images/products/quimicos-aceites.jpeg",
+      "specs": {
+        "cover": "NBR / químico-específico",
+        "carcass": "EP estándar",
+        "widthRange": "500mm - 1800mm",
+        "tempMax": "70°C continuo",
+        "standard": "CEMA Belt Book 7th Ed + DIN 22102"
+      },
+      "applications": [
+        "reciclaje",
+        "mineria",
+        "quimica"
+      ],
+      "whatsappMsgEs": "Hola GBS, quiero cotizar Banda Resistente a Aceites/Químicos. Mi aplicación es:",
+      "whatsappMsgEn": "Hi GBS, I want to quote the Oil/Chemical-Resistant Belt. My application is:"
+    }
+  ]
+}

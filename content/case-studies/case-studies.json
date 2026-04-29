@@ -1,0 +1,207 @@
+{
+  "cases": [
+    {
+      "slug": "puerto-transportador-altura",
+      "titleEs": "Banda transportadora en altura — Puerto",
+      "titleEn": "High-altitude conveyor belt — Port terminal",
+      "categoryEs": "Puertos",
+      "categoryEn": "Ports",
+      "industryEs": "Logística portuaria",
+      "industryEn": "Port logistics",
+      "year": "",
+      "location": "Colombia",
+      "clientName": "Puerto Terminal",
+      "heroImage": "/cases/compas/IMG-20180427-WA0068.jpg",
+      "summaryEs": "Cambio completo de banda en altura sin parar la operación 24/7 del puerto.",
+      "summaryEn": "Full belt replacement at height with zero downtime in a 24/7 port operation.",
+      "bodyEs": "Una banda transportadora elevada de 15 metros, operativa 24/7 en un puerto terminal, comenzó a mostrar deterioro severo después de 3 años. La parada implicaba pérdida de USD 50K/día.",
+      "bodyEn": "A 15-meter elevated conveyor belt running 24/7 at a port terminal showed severe deterioration after 3 years. Downtime cost USD 50K/day.",
+      "story": {
+        "es": {
+          "problem": "Banda elevada de 15 metros, operativa 24/7 en un puerto terminal, con deterioro severo tras 3 años. La parada implicaba pérdida de USD 50K/día en ingresos operacionales.",
+          "solution": "Cambio completo de banda de caucho con múltiples lonas y refuerzo. Vulcanizado in-situ para evitar desconexión del sistema.",
+          "result": "Banda operativa en tiempo récord. Aumento de la vida útil de la banda actual hasta en 3 años. Cero paradas adicionales en los 18 meses posteriores. El cliente implementó mantenimiento preventivo basado en nuestras recomendaciones."
+        },
+        "en": {
+          "problem": "15-meter elevated belt, running 24/7 at a port terminal, severely deteriorated after 3 years. Downtime cost USD 50K/day in lost operations.",
+          "solution": "Full multi-ply rubber belt replacement with reinforcement. On-site vulcanizing to avoid disconnecting the system.",
+          "result": "Belt operational in record time. Estimated service life extended by up to 3 additional years. Zero additional downtime in the following 18 months. Client adopted preventive maintenance based on our recommendations."
+        }
+      },
+      "metrics": [
+        {
+          "label": {
+            "es": "Vida útil",
+            "en": "Service life"
+          },
+          "value": "+3 años"
+        },
+        {
+          "label": {
+            "es": "Disponibilidad",
+            "en": "Uptime"
+          },
+          "value": "99.8%"
+        },
+        {
+          "label": {
+            "es": "Ahorro anual",
+            "en": "Annual savings"
+          },
+          "value": "USD 100K"
+        }
+      ],
+      "testimonial": {
+        "es": "GBS no solo cambió la banda. Nos mostró cómo operar de forma más eficiente. Son socios, no proveedores.",
+        "en": "GBS didn't just replace the belt. They showed us how to operate more efficiently. They're partners, not vendors."
+      },
+      "testimonialAuthor": {
+        "es": "Gerente Operacional, Puerto Terminal",
+        "en": "Operations Manager, Port Terminal"
+      },
+      "gallery": [
+        "/cases/compas/IMG-20180427-WA0069.jpg",
+        "/cases/compas/IMG-20180428-WA0017.jpg",
+        "/cases/compas/IMG-20180428-WA0018.jpg",
+        "/cases/compas/IMG-20180428-WA0019.jpg",
+        "/cases/compas/IMG-20180428-WA0020.jpg",
+        "/cases/compas/IMG-20180428-WA0022.jpg"
+      ],
+      "createdAt": "2024-08-12"
+    },
+    {
+      "slug": "linea-modular-carnicos-48h",
+      "titleEs": "Línea modular en 48 horas — Cárnicos",
+      "titleEn": "48-hour modular line — Meat processing",
+      "categoryEs": "Alimentos",
+      "categoryEn": "Food",
+      "industryEs": "Procesamiento de cárnicos",
+      "industryEn": "Meat processing",
+      "year": "",
+      "location": "Colombia",
+      "clientName": "Empresa de cárnicos",
+      "heroImage": "/cases/minerva-foods/IMG-20180319-WA0002.jpg",
+      "summaryEs": "Línea modular sanitaria de 40+ metros instalada y validada en un solo fin de semana.",
+      "summaryEn": "40+ meter sanitary modular line installed and validated over a single weekend.",
+      "bodyEs": "Una nueva planta de cárnicos requería una línea modular de 40+ m operativa para el lunes. 48 horas. Especificación FDA. Cero margen de error.",
+      "bodyEn": "A new meat plant needed a 40+ m modular line live by Monday. 48 hours. FDA spec. Zero margin for error.",
+      "story": {
+        "es": {
+          "problem": "Planta nueva de procesamiento de cárnicos. Línea modular de 40+ metros operativa para el lunes. Tiempo disponible: viernes a domingo. Especificación FDA grado alimenticio. Cero margen de error.",
+          "solution": "Banda modular PU FDA 21 CFR ensamblada en nuestras instalaciones. Logística acelerada. Montaje en sitio con equipo de 6 técnicos durante el fin de semana. Validación sanitaria previa. Pruebas con carga simulada.",
+          "result": "Línea operativa el lunes a las 6:00 a.m. La planta arrancó producción a tiempo. Cero defectos de montaje o materiales. El cliente renovó la orden para 3 líneas adicionales el mismo trimestre."
+        },
+        "en": {
+          "problem": "New meat processing plant. 40+ m modular line live by Monday. Window: Friday to Sunday. FDA food-grade spec. No room for error.",
+          "solution": "FDA 21 CFR modular PU belt assembled in-house. Accelerated logistics. Six-tech weekend installation. Pre-sanitization validation. Simulated-load testing.",
+          "result": "Line operational at 6:00 a.m. Monday. Plant launched on schedule. Zero defects in installation or materials. Client renewed for 3 additional lines that quarter."
+        }
+      },
+      "metrics": [
+        {
+          "label": {
+            "es": "Entrega + montaje",
+            "en": "Delivery + install"
+          },
+          "value": "48 h"
+        },
+        {
+          "label": {
+            "es": "Longitud",
+            "en": "Length"
+          },
+          "value": "40+ m"
+        },
+        {
+          "label": {
+            "es": "Uptime 6 meses",
+            "en": "6-month uptime"
+          },
+          "value": "99.5%"
+        }
+      ],
+      "testimonial": {
+        "es": "No solo cumplieron el plazo. Nos dieron tranquilidad. La banda funciona perfecto en ambiente húmedo y de lavado frecuente.",
+        "en": "They didn't just meet the deadline. They gave us peace of mind. The belt runs perfectly in a wet and frequently-washed environment."
+      },
+      "testimonialAuthor": {
+        "es": "Director de Planta, Empresa de cárnicos",
+        "en": "Plant Director, Meat Processing Company"
+      },
+      "gallery": [
+        "/cases/minerva-foods/IMG-20180319-WA0003.jpg",
+        "/cases/minerva-foods/IMG-20180319-WA0011.jpg",
+        "/cases/minerva-foods/IMG-20180319-WA0012.jpg",
+        "/cases/minerva-foods/IMG-20180319-WA0014.jpg",
+        "/cases/minerva-foods/IMG-20180320-WA0000.jpg",
+        "/cases/minerva-foods/IMG-20180320-WA0001.jpg"
+      ],
+      "createdAt": "2025-02-04"
+    },
+    {
+      "slug": "ampliacion-planta-17-bandas",
+      "titleEs": "Ampliación de planta — 17 bandas homogéneas",
+      "titleEn": "Plant expansion — 17 homogeneous belts",
+      "categoryEs": "Alimentos",
+      "categoryEn": "Food",
+      "industryEs": "Golosinas",
+      "industryEn": "Confectionery",
+      "year": "",
+      "location": "Colombia",
+      "clientName": "Empresa de golosinas",
+      "heroImage": "/cases/trululu/252176.jpeg",
+      "summaryEs": "17 líneas de transporte homogéneas, fabricadas e instaladas en 2 semanas.",
+      "summaryEn": "17 homogeneous transport lines, fabricated and installed in 2 weeks.",
+      "bodyEs": "Ampliación de planta de alimentos con 17 bandas homogéneas FDA, colores corporativos y tolerancias cerradas. 2 semanas para instalación.",
+      "bodyEn": "Food plant expansion with 17 FDA homogeneous belts, corporate colors and tight tolerances. 2 weeks for installation.",
+      "story": {
+        "es": {
+          "problem": "Empresa de alimentos requería equipar la ampliación de planta con 17 bandas homogéneas (termoplásticas) desde cero. Especificación FDA, diseño modular, colores corporativos y tolerancias cerradas. Cronograma exigente: 2 semanas para instalación.",
+          "solution": "Ingeniería de cada línea según el producto (dulces, gomas, chocolates). Banda PU homogénea con acabados en colores corporativos. 17 ensambles independientes fabricados y validados. Instalación coordinada de 4 semanas con commissioning en paralelo.",
+          "result": "Ampliación operativa a tiempo y dentro de presupuesto. Las 17 líneas generan 2.3M kg/mes de capacidad adicional. El cliente trabaja con 3 proveedores; somos su preferido porque 'entendemos el negocio'."
+        },
+        "en": {
+          "problem": "A food company needed 17 homogeneous (thermoplastic) belts from scratch for a plant expansion. FDA spec, modular design, corporate colors, tight tolerances. Tight timeline: 2 weeks for installation.",
+          "solution": "Per-product engineering (candies, gummies, chocolates). PU homogeneous belt finished in corporate colors. 17 independent assemblies built and validated. Coordinated 2-week installation with parallel commissioning.",
+          "result": "Expansion operational on time and on budget. The 17 lines deliver 2.3M kg/month of additional capacity. The client uses 3 belt suppliers; we're their favorite because 'we understand the business.'"
+        }
+      },
+      "metrics": [
+        {
+          "label": {
+            "es": "Bandas",
+            "en": "Belts"
+          },
+          "value": "17"
+        },
+        {
+          "label": {
+            "es": "Capacidad adicional",
+            "en": "Added capacity"
+          },
+          "value": "2.3M kg/mes"
+        },
+        {
+          "label": {
+            "es": "Uptime año 1",
+            "en": "Year-1 uptime"
+          },
+          "value": "99.2%"
+        }
+      ],
+      "testimonial": {
+        "es": "GBS trajo soluciones que no pedíamos. Mejoraron nuestros diseños y eso se refleja en eficiencia. Son socios de crecimiento.",
+        "en": "GBS brought solutions we didn't ask for. They improved our designs and it shows in efficiency. They're growth partners."
+      },
+      "testimonialAuthor": {
+        "es": "Gerente de Producción, Empresa de golosinas",
+        "en": "Production Manager, Confectionery Company"
+      },
+      "gallery": [
+        "/cases/trululu/252315.jpeg",
+        "/cases/trululu/255044.jpeg"
+      ],
+      "createdAt": "2025-04-20"
+    }
+  ]
+}

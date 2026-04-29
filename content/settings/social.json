@@ -1,0 +1,82 @@
+{
+  "networks": [
+    {
+      "id": "linkedin",
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/company/gbs-group-int/",
+      "handle": "gbs-group-int",
+      "icon": "linkedin",
+      "primary": true,
+      "showInHero": true,
+      "showInFooter": true
+    },
+    {
+      "id": "tiktok",
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/@gbscolombia",
+      "handle": "gbscolombia",
+      "icon": "tiktok",
+      "primary": true,
+      "showInHero": true,
+      "showInFooter": true
+    },
+    {
+      "id": "instagram",
+      "name": "Instagram",
+      "url": "https://www.instagram.com/gbscolom/",
+      "handle": "gbscolom",
+      "icon": "instagram",
+      "primary": false,
+      "showInHero": false,
+      "showInFooter": true
+    },
+    {
+      "id": "facebook",
+      "name": "Facebook",
+      "url": "https://www.facebook.com/profile.php?id=61577897436038",
+      "handle": "GBS Colombia",
+      "icon": "facebook",
+      "primary": false,
+      "showInHero": false,
+      "showInFooter": true
+    }
+  ],
+  "featuredTikToks": [
+    {
+      "videoId": "7520659636467338501",
+      "url": "https://www.tiktok.com/@gbscolombia/video/7520659636467338501",
+      "titleEs": "Proyecto en obra GBS",
+      "titleEn": "GBS field project"
+    },
+    {
+      "videoId": "7476228008685178117",
+      "url": "https://www.tiktok.com/@gbscolombia/video/7476228008685178117",
+      "titleEs": "Ingeniería de bandas",
+      "titleEn": "Belt engineering"
+    },
+    {
+      "videoId": "7520718660948823301",
+      "url": "https://www.tiktok.com/@gbscolombia/video/7520718660948823301",
+      "titleEs": "Proceso técnico GBS",
+      "titleEn": "GBS technical process"
+    }
+  ],
+  "featuredLinkedInPosts": [
+    {
+      "url": "https://www.linkedin.com/company/gbs-group-int/posts/",
+      "titleEs": "Proyecto ejecutado en industria cementera",
+      "excerptEs": "Compartimos detalles de la ingeniería aplicada en un nuevo proyecto bajo norma CEMA.",
+      "titleEn": "Project delivered in cement industry",
+      "excerptEn": "We share engineering details applied to a new CEMA-compliant project.",
+      "date": "2026-04-01"
+    },
+    {
+      "url": "https://www.linkedin.com/company/gbs-group-int/posts/",
+      "titleEs": "Nueva línea de bandas livianas sanitarias",
+      "excerptEs": "Ampliamos el portafolio para industria alimenticia con bandas grado FDA.",
+      "titleEn": "New sanitary light-duty belt line",
+      "excerptEn": "We expand our food-industry portfolio with FDA-grade belts.",
+      "date": "2026-03-15"
+    }
+  ]
+}

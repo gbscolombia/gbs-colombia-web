@@ -1,0 +1,20 @@
+{
+  "legalName": "GBS Colombia SAS",
+  "shortName": "GBS Colombia",
+  "founded": 2016,
+  "hq": {
+    "city": "Pereira",
+    "region": "Risaralda",
+    "country": "Colombia",
+    "countryCode": "CO"
+  },
+  "coverage": "Nacional",
+  "group": "GBS International Group",
+  "groupUrl": "https://www.gbsint.com",
+  "stats": {
+    "yearsOperating": "8+",
+    "standard": "CEMA",
+    "support": "24/7",
+    "coverage": "100%"
+  }
+}

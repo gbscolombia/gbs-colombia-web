@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cp gbs-assets/clients/*.png public/clients/)",
+      "Bash(cp gbs-assets/hero/*.jpeg public/images/hero/)",
+      "Bash(gh repo *)"
+    ]
+  }
+}

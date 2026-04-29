@@ -1,0 +1,128 @@
+{
+  "category": "componentes",
+  "titleEs": "Componentes de Bandas Transportadoras",
+  "titleEn": "Conveyor Belt Components",
+  "descriptionEs": "Rodillos CEMA, poleas motrices y tensoras, raspadores, faldones, guías y estructuras IP. Componentes premium para sistemas de transporte industrial.",
+  "descriptionEn": "CEMA idlers, drive and take-up pulleys, belt cleaners, skirting, guides, and IP structural beams. Premium components for industrial conveyor systems.",
+  "heroImage": "/images/products/rodillos.jpg",
+  "updatedAt": "2026-04-01",
+  "products": [
+    {
+      "slug": "rodillos-cema-serie-c-d-e",
+      "nameEs": "Rodillos CEMA Serie C / D / E",
+      "nameEn": "CEMA Series C / D / E Idlers",
+      "shortDescEs": "Rodillos de carga, retorno e impacto clasificados bajo CEMA. Rodamientos sellados premium.",
+      "shortDescEn": "Carrying, return, and impact idlers classified under CEMA. Premium sealed bearings.",
+      "fullDescEs": "Rodillos diseñados y fabricados bajo clasificación CEMA (serie C, D, o E según la carga). Eje de acero, tubo de acero cold-rolled, rodamientos sellados con grasa de por vida y laberintos múltiples que protegen contra polvo, agua y contaminación severa. Disponibles en configuración de carga (artesa 20°/30°/35°/45°), retorno planos o en V, y de impacto con anillos de caucho.",
+      "fullDescEn": "Idlers designed and manufactured under CEMA classification (series C, D, or E according to load). Steel shaft, cold-rolled steel tube, life-lubricated sealed bearings with multiple labyrinths protecting against dust, water, and severe contamination. Available in carrying configuration (20°/30°/35°/45° trough), flat or V return, and impact with rubber rings.",
+      "image": "/images/products/rodillos.jpg",
+      "specs": {
+        "classification": "CEMA C (ligero), D (medio), E (pesado)",
+        "diameters": "4\" a 7\" según carga",
+        "bearings": "Sellados, lubricados de por vida",
+        "materials": "Acero pintado estándar o galvanizado"
+      },
+      "applications": [
+        "todas las industrias"
+      ],
+      "whatsappMsgEs": "Hola GBS, quiero cotizar Rodillos CEMA. Mi aplicación es:",
+      "whatsappMsgEn": "Hi GBS, I want to quote CEMA Idlers. My application is:"
+    },
+    {
+      "slug": "poleas-motrices-tensoras",
+      "nameEs": "Poleas Motrices y Tensoras",
+      "nameEn": "Drive and Take-Up Pulleys",
+      "shortDescEs": "Poleas de diámetro y ancho según CEMA, con revestimiento de caucho diamantado o cerámico.",
+      "shortDescEn": "Pulleys with diameter and face width per CEMA, with diamond or ceramic rubber lagging.",
+      "fullDescEs": "Poleas soldadas o ensambladas según requisito del proyecto. Diámetros calculados bajo CEMA para evitar tensiones de flexión excesivas en la banda. Revestimiento estándar de caucho diamantado (estrías) para aumentar tracción, o cerámico en aplicaciones de alta humedad/contaminación. Ejes mecanizados bajo tolerancia estricta.",
+      "fullDescEn": "Welded or assembled pulleys per project requirement. Diameters calculated under CEMA to avoid excessive bending stress on the belt. Standard diamond-pattern rubber lagging (grooved) for increased traction, or ceramic in high-moisture/contamination applications. Machined shafts under strict tolerance.",
+      "image": "/images/products/polea-motriz.jpeg",
+      "specs": {
+        "lagging": "Caucho diamantado / cerámico",
+        "diameters": "Calculados según tensión y ancho de banda",
+        "standard": "CEMA Belt Book 7th Ed.",
+        "materials": "Acero estructural"
+      },
+      "applications": [
+        "todas las industrias"
+      ],
+      "whatsappMsgEs": "Hola GBS, quiero cotizar Poleas Motrices/Tensoras. Mi aplicación es:",
+      "whatsappMsgEn": "Hi GBS, I want to quote Drive/Take-Up Pulleys. My application is:"
+    },
+    {
+      "slug": "raspadores-primarios-secundarios",
+      "nameEs": "Raspadores Primarios y Secundarios",
+      "nameEn": "Primary and Secondary Belt Cleaners",
+      "shortDescEs": "Sistemas de limpieza de banda con cuchillas de poliuretano o tungsteno. Reducen arrastre y derrame.",
+      "shortDescEn": "Belt cleaning systems with polyurethane or tungsten blades. Reduce carry-back and spillage.",
+      "fullDescEs": "Raspadores primarios (montados contra la polea de cabeza) y secundarios (después del raspador primario) con cuchillas de poliuretano para aplicaciones generales o carburo de tungsteno para materiales altamente abrasivos. Sistemas de tensión con resortes o neumáticos que mantienen presión constante sobre la banda. Reducen drásticamente el material adherido que regresa por la parte inferior.",
+      "fullDescEn": "Primary cleaners (mounted against the head pulley) and secondary cleaners (after the primary) with polyurethane blades for general applications or tungsten carbide for highly abrasive materials. Spring or pneumatic tensioning systems maintaining constant pressure on the belt. Drastically reduce adhered material returning on the belt underside.",
+      "image": "/images/products/raspador.jpg",
+      "specs": {
+        "blades": "Poliuretano / carburo de tungsteno",
+        "tension": "Resortes o neumática",
+        "compatibility": "Bandas 400mm - 2400mm",
+        "standard": "Buenas prácticas CEMA"
+      },
+      "applications": [
+        "mineria",
+        "cemento",
+        "agregados",
+        "puertos"
+      ],
+      "whatsappMsgEs": "Hola GBS, quiero cotizar Raspadores de Banda. Mi aplicación es:",
+      "whatsappMsgEn": "Hi GBS, I want to quote Belt Cleaners. My application is:"
+    },
+    {
+      "slug": "faldones-guias-laterales",
+      "nameEs": "Faldones y Guías Laterales",
+      "nameEn": "Skirting and Side Guides",
+      "shortDescEs": "Sellos de faldón con poliuretano y guías laterales para evitar derrames y desalineamiento.",
+      "shortDescEn": "Polyurethane skirting seals and side guides to prevent spillage and misalignment.",
+      "fullDescEs": "Sistemas de contención de material en la zona de carga compuestos por faldones rígidos (lámina de acero) revestidos con sellos de poliuretano que impiden el escape del material. Guías laterales para mantener la alineación de la banda y evitar el roce contra la estructura.",
+      "fullDescEn": "Material containment systems in the loading zone consisting of rigid skirts (steel sheet) lined with polyurethane seals that prevent material escape. Side guides maintain belt alignment and prevent rubbing against structure.",
+      "image": "/images/products/faldon.jpg",
+      "specs": {
+        "sealMaterial": "Poliuretano",
+        "skirtMaterial": "Lámina de acero",
+        "mounting": "Atornillado para fácil reemplazo",
+        "standard": "Buenas prácticas CEMA"
+      },
+      "applications": [
+        "mineria",
+        "cemento",
+        "agregados"
+      ],
+      "whatsappMsgEs": "Hola GBS, quiero cotizar Faldones y Guías Laterales. Mi aplicación es:",
+      "whatsappMsgEn": "Hi GBS, I want to quote Skirting and Side Guides. My application is:"
+    },
+    {
+      "slug": "variadores-velocidad-emotron",
+      "nameEs": "Variadores de Velocidad Emotron",
+      "nameEn": "Emotron Variable Frequency Drives",
+      "shortDescEs": "Variadores de frecuencia (VFD) marca Emotron para arranque suave, control de torque y monitoreo de carga en transportadores y procesos industriales.",
+      "shortDescEn": "Emotron variable frequency drives (VFD) for soft start, torque control and load monitoring on conveyors and industrial processes.",
+      "fullDescEs": "Emotron, parte del grupo CG Drives & Automation (Suecia, hoy bajo Nidec ASI), es referente mundial en variadores de frecuencia con monitoreo de carga por shaft-power. Su tecnologia permite detectar atascos, bandas vacias, sobrecargas y desgaste mecanico antes de que generen una parada. GBS suministra, dimensiona y configura las series VFX, FDU y Emotron M20 para aplicaciones de mineria, cemento, agua, alimentos y manejo de materiales. Incluye protocolos Modbus, Profibus, Profinet y Ethernet/IP para integracion con SCADA y PLC.",
+      "fullDescEn": "Emotron — part of CG Drives & Automation (Sweden, now under Nidec ASI) — is a global reference in variable frequency drives with shaft-power load monitoring. The technology detects blockages, empty belts, overloads and mechanical wear before they cause downtime. GBS supplies, sizes and configures the VFX, FDU and Emotron M20 series for mining, cement, water, food and material handling applications. Modbus, Profibus, Profinet and Ethernet/IP protocols are supported for SCADA / PLC integration.",
+      "image": "/images/products/variador-emotron.jpg",
+      "specs": {
+        "brand": "Emotron (CG Drives & Automation / Nidec ASI)",
+        "series": "VFX 2.0, FDU 2.0, Emotron M20",
+        "powerRange": "0.37 kW - 3000 kW",
+        "voltage": "220 / 380 / 440 / 690 V",
+        "protection": "IP20 / IP54 / IP55 segun modelo",
+        "comms": "Modbus RTU/TCP, Profibus, Profinet, Ethernet/IP, CANopen",
+        "monitoring": "Shaft-power monitor (carga en linea, sin sensores externos)"
+      },
+      "applications": [
+        "mineria",
+        "cemento",
+        "alimentos",
+        "puertos",
+        "agua"
+      ],
+      "whatsappMsgEs": "Hola GBS, quiero cotizar Variador de velocidad Emotron. Mi motor es:",
+      "whatsappMsgEn": "Hi GBS, I want to quote an Emotron variable frequency drive. My motor is:"
+    }
+  ]
+}

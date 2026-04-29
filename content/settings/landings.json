@@ -1,0 +1,49 @@
+{
+  "campaigns": [
+    {
+      "slug": "cemento",
+      "titleEs": "Bandas para industria del cemento",
+      "titleEn": "Belts for the cement industry",
+      "kickerEs": "INGENIERÍA CEMA APLICADA AL CEMENTO",
+      "kickerEn": "CEMA ENGINEERING APPLIED TO CEMENT",
+      "subtitleEs": "Suministro y diseño de bandas para clínker, materias primas y producto terminado bajo CEMA Belt Book 7ma Ed.",
+      "subtitleEn": "Supply and design of belts for clinker, raw materials and finished product under CEMA Belt Book 7th Ed.",
+      "heroImage": "/images/hero/Container-Warehouse.jpg",
+      "bullets": [
+        { "es": "Resistencia a temperatura > 60°C", "en": "Heat resistance > 60°C" },
+        { "es": "Construcción atornillada de serie", "en": "Standard bolted construction" },
+        { "es": "Soporte técnico vía WhatsApp", "en": "Direct WhatsApp tech support" }
+      ]
+    },
+    {
+      "slug": "mineria",
+      "titleEs": "Bandas para minería y agregados",
+      "titleEn": "Belts for mining and aggregates",
+      "kickerEs": "DURABILIDAD CEMA",
+      "kickerEn": "CEMA DURABILITY",
+      "subtitleEs": "Bandas multi-ply EP y ST con caucho antiabrasivo para mineral grueso, fino, arena y grava.",
+      "subtitleEn": "Multi-ply EP and ST belts with anti-abrasive rubber for coarse/fine ore, sand and gravel.",
+      "heroImage": "/images/hero/Port Coal.jpeg",
+      "bullets": [
+        { "es": "Cálculo CEMA por proyecto", "en": "CEMA calculation per project" },
+        { "es": "Empalmes vulcanizados in-situ", "en": "On-site vulcanized splices" },
+        { "es": "Mantenimiento preventivo continuo", "en": "Continuous preventive maintenance" }
+      ]
+    },
+    {
+      "slug": "alimentos",
+      "titleEs": "Bandas sanitarias para alimentos",
+      "titleEn": "Sanitary belts for food",
+      "kickerEs": "GRADO FDA",
+      "kickerEn": "FDA GRADE",
+      "subtitleEs": "Bandas PU, PVC y modulares con materiales aptos para contacto alimentario.",
+      "subtitleEn": "PU, PVC and modular belts with food-contact-grade materials.",
+      "heroImage": "/images/hero/Sanitary-Belt.jpeg",
+      "bullets": [
+        { "es": "Materiales FDA / EU 10/2011", "en": "FDA / EU 10/2011 materials" },
+        { "es": "Diseño compatible con CIP", "en": "CIP-compatible design" },
+        { "es": "Acero inoxidable AISI 304", "en": "AISI 304 stainless steel" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-family-heading: 'Sora', system-ui, sans-serif;
+  --font-family-body: 'Inter', system-ui, sans-serif;
+}
+
+@layer base {
+  :root {
+    /* MARCA */
+    --brand-navy: #0A2540;
+    --brand-blue-deep: #1E5F9E;
+    --brand-blue: #1E7FC4;
+    --brand-cyan: #00B8E6;
+    --brand-steel: #6B8CA8;
+
+    /* NEUTROS */
+    --neutral-0: #FFFFFF;
+    --neutral-50: #FAFBFC;
+    --neutral-100: #F4F6F8;
+    --neutral-200: #E5E9EF;
+    --neutral-300: #CBD2DC;
+    --neutral-400: #9CA5B3;
+    --neutral-500: #6B7684;
+    --neutral-600: #4A5361;
+    --neutral-700: #374151;
+    --neutral-800: #1F2937;
+    --neutral-900: #0F172A;
+    --neutral-950: #060B16;
+
+    /* SEMÁNTICOS */
+    --success: #10B981;
+    --warning: #F59E0B;
+    --danger: #EF4444;
+    --info: var(--brand-blue);
+
+    /* SUPERFICIES */
+    --bg-primary: var(--neutral-0);
+    --bg-secondary: var(--neutral-50);
+    --bg-tertiary: var(--neutral-100);
+    --bg-dark: var(--brand-navy);
+    --bg-accent: var(--brand-blue);
+
+    /* TEXTO */
+    --text-primary: var(--neutral-900);
+    --text-secondary: var(--neutral-700);
+    --text-tertiary: var(--neutral-500);
+    --text-inverse: var(--neutral-0);
+    --text-accent: var(--brand-blue-deep);
+    --text-muted: var(--neutral-400);
+
+    /* BORDES */
+    --border-subtle: var(--neutral-200);
+    --border-default: var(--neutral-300);
+    --border-strong: var(--neutral-400);
+    --border-accent: var(--brand-blue);
+
+    /* FUENTES */
+    --font-heading: 'Sora', system-ui, -apple-system, sans-serif;
+    --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+
+    /* ESCALA TIPOGRÁFICA FLUIDA */
+    --text-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
+    --text-sm: clamp(0.875rem, 0.8rem + 0.375vw, 1rem);
+    --text-base: clamp(1rem, 0.925rem + 0.375vw, 1.125rem);
+    --text-lg: clamp(1.125rem, 1rem + 0.625vw, 1.375rem);
+    --text-xl: clamp(1.375rem, 1.2rem + 0.875vw, 1.75rem);
+    --text-2xl: clamp(1.75rem, 1.4rem + 1.75vw, 2.5rem);
+    --text-3xl: clamp(2.25rem, 1.8rem + 2.25vw, 3.5rem);
+    --text-4xl: clamp(3rem, 2.3rem + 3.5vw, 4.5rem);
+    --text-hero: clamp(2.75rem, 2rem + 3.75vw, 5.5rem);
+    --text-display: clamp(3.5rem, 2.5rem + 5vw, 7rem);
+
+    /* LINE HEIGHTS */
+    --leading-none: 1;
+    --leading-tight: 1.1;
+    --leading-snug: 1.25;
+    --leading-normal: 1.5;
+    --leading-relaxed: 1.75;
+
+    /* ESPACIADO */
+    --space-1: 0.25rem;
+    --space-2: 0.5rem;
+    --space-3: 0.75rem;
+    --space-4: 1rem;
+    --space-5: 1.25rem;
+    --space-6: 1.5rem;
+    --space-8: 2rem;
+    --space-10: 2.5rem;
+    --space-12: 3rem;
+    --space-16: 4rem;
+    --space-20: 5rem;
+    --space-24: 6rem;
+    --space-32: 8rem;
+
+    /* RADIUS */
+    --radius-xs: 4px;
+    --radius-sm: 6px;
+    --radius-md: 10px;
+    --radius-lg: 16px;
+    --radius-xl: 24px;
+    --radius-2xl: 32px;
+    --radius-full: 9999px;
+
+    /* SOMBRAS */
+    --shadow-xs: 0 1px 2px 0 rgb(10 37 64 / 0.04);
+    --shadow-sm: 0 2px 4px -1px rgb(10 37 64 / 0.06);
+    --shadow-md: 0 4px 8px -2px rgb(10 37 64 / 0.08);
+    --shadow-lg: 0 12px 24px -6px rgb(10 37 64 / 0.12);
+    --shadow-xl: 0 20px 40px -10px rgb(10 37 64 / 0.15);
+    --shadow-2xl: 0 32px 64px -12px rgb(10 37 64 / 0.18);
+    --glow-brand: 0 8px 32px -8px rgb(30 127 196 / 0.4);
+    --glow-cta: 0 12px 40px -8px rgb(30 127 196 / 0.5);
+
+    /* TRANSICIONES */
+    --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+    --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+    --duration-fast: 150ms;
+    --duration-base: 250ms;
+    --duration-slow: 400ms;
+
+    /* CONTAINERS */
+    --max-w-prose: 65ch;
+    --max-w-content: 1200px;
+    --max-w-wide: 1440px;
+    --max-w-ultra: 1680px;
+  }
+
+  * {
+    border-color: var(--border-subtle);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: var(--font-body);
+    font-size: var(--text-base);
+    line-height: var(--leading-normal);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    line-height: var(--leading-tight);
+    letter-spacing: -0.02em;
+  }
+
+  ::selection {
+    background: var(--brand-blue);
+    color: var(--neutral-0);
+  }
+}
+
+@layer utilities {
+  .text-hero { font-size: var(--text-hero); line-height: var(--leading-tight); }
+  .text-display { font-size: var(--text-display); line-height: var(--leading-none); }
+  .text-4xl-fluid { font-size: var(--text-4xl); }
+  .text-3xl-fluid { font-size: var(--text-3xl); }
+  .text-2xl-fluid { font-size: var(--text-2xl); }
+  .text-xl-fluid { font-size: var(--text-xl); }
+  .text-lg-fluid { font-size: var(--text-lg); }
+
+  .container-content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--max-w-content);
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  @media (min-width: 768px) {
+    .container-content { padding-left: 2rem; padding-right: 2rem; }
+  }
+
+  .container-wide {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: var(--max-w-wide);
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+  @media (min-width: 768px) {
+    .container-wide { padding-left: 2rem; padding-right: 2rem; }
+  }
+
+  .section-padding { padding-top: 5rem; padding-bottom: 5rem; }
+  @media (min-width: 768px) { .section-padding { padding-top: 7rem; padding-bottom: 7rem; } }
+  @media (min-width: 1280px) { .section-padding { padding-top: 8rem; padding-bottom: 8rem; } }
+
+  @keyframes scroll-x {
+    from { transform: translateX(0); }
+    to { transform: translateX(-33.3333%); }
+  }
+  .animate-scroll-x { animation: scroll-x 35s linear infinite; }
+  .animate-scroll-x:hover { animation-play-state: paused; }
+
+  /* Edge fade for marquee */
+  .marquee-fade {
+    -webkit-mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+            mask-image: linear-gradient(to right, transparent, black 8%, black 92%, transparent);
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-12px); }
+  }
+  .animate-float { animation: float 3s var(--ease-in-out) infinite; }
+
+  @keyframes bounce-soft {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(6px); }
+  }
+  .animate-bounce-soft { animation: bounce-soft 2s var(--ease-in-out) infinite; }
+}

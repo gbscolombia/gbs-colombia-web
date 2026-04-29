@@ -1,0 +1,163 @@
+{
+  "category": "bandas-livianas",
+  "titleEs": "Bandas Livianas y Modulares",
+  "titleEn": "Light-Duty and Modular Belts",
+  "descriptionEs": "Bandas termoplásticas y modulares para industria alimenticia, farmacéutica, logística, empaque y agroindustria. Cumplen normativas FDA 21 CFR y EU 10/2011 para contacto con alimentos.",
+  "descriptionEn": "Thermoplastic and modular belts for food, pharmaceutical, logistics, packaging, and agribusiness industries. FDA 21 CFR and EU 10/2011 compliant for food contact.",
+  "heroImage": "/images/hero/Banda-papa.jpeg",
+  "catalogPdf": "/catalogos/catalogo-bandas-livianas.pdf",
+  "updatedAt": "2026-04-01",
+  "products": [
+    {
+      "slug": "banda-pu-termoplastica",
+      "nameEs": "Banda PU Termoplástica",
+      "nameEn": "Thermoplastic PU Belt",
+      "shortDescEs": "Poliuretano grado alimenticio FDA. Superficie lisa, resistente a cortes, fácil de limpiar.",
+      "shortDescEn": "FDA food-grade polyurethane. Smooth surface, cut-resistant, easy to clean.",
+      "fullDescEs": "Banda de poliuretano termoplástico certificada FDA 21 CFR 177.1680 y EU 10/2011 para contacto directo con alimentos. Superficie no porosa que previene la acumulación bacteriana. Ideal para panificación, cárnicos, lácteos y procesos con lavado frecuente CIP.",
+      "fullDescEn": "Thermoplastic polyurethane belt certified FDA 21 CFR 177.1680 and EU 10/2011 for direct food contact. Non-porous surface preventing bacterial buildup. Ideal for bakery, meat processing, dairy, and processes with frequent CIP washing.",
+      "image": "/images/products/banda-termoplastica.jpeg",
+      "specs": {
+        "material": "Poliuretano termoplástico (TPU)",
+        "foodGrade": "FDA 21 CFR 177.1680 + EU 10/2011",
+        "widthRange": "hasta 2500mm",
+        "tempRange": "-20°C a +80°C",
+        "surface": "Lisa, mate, rugosa o con perfiles"
+      },
+      "applications": [
+        "alimentos",
+        "panificacion",
+        "carnicos",
+        "lacteos",
+        "farmaceutica"
+      ],
+      "whatsappMsgEs": "Hola GBS, quiero cotizar Banda PU Termoplástica. Mi aplicación es:",
+      "whatsappMsgEn": "Hi GBS, I want to quote the Thermoplastic PU Belt. My application is:"
+    },
+    {
+      "slug": "banda-pu-grado-alimenticio",
+      "nameEs": "Banda PU Grado Alimenticio",
+      "nameEn": "Food-Grade PU Belt",
+      "shortDescEs": "Banda de poliuretano blanco con certificacion FDA 21 CFR para contacto directo con alimentos. Resistente a aceites, grasas y lavado intensivo CIP.",
+      "shortDescEn": "White polyurethane belt certified FDA 21 CFR for direct food contact. Resistant to oils, fats and intensive CIP washing.",
+      "fullDescEs": "Solucion sanitaria para procesamiento de carnicos, panificacion, frutas, vegetales y golosinas. Superficie homogenea sin tejidos expuestos que evita la proliferacion bacteriana, facil de limpiar y resistente a soluciones alcalinas y acidas usadas en lavado CIP. Compatible con normas FDA 21 CFR 177.2600 y EU 10/2011. Disponible en colores blanco, azul y verde para zonificacion HACCP.",
+      "fullDescEn": "Sanitary solution for meat, bakery, fruit, vegetable and confectionery processing. Homogeneous surface with no exposed fabrics — prevents bacterial growth, easy to clean and resistant to alkaline and acidic CIP solutions. Complies with FDA 21 CFR 177.2600 and EU 10/2011. Available in white, blue and green for HACCP zoning.",
+      "image": "/images/products/banda-pu.jpeg",
+      "specs": {
+        "material": "PU homogeneo grado alimenticio",
+        "certifications": "FDA 21 CFR · EU 10/2011 · HACCP",
+        "colors": "Blanco, azul, verde, transparente",
+        "tempRange": "-20°C a +80°C",
+        "thickness": "1.5 - 6 mm segun aplicacion"
+      },
+      "applications": [
+        "panificacion",
+        "carnicos",
+        "frutas-vegetales",
+        "farmaceutico"
+      ],
+      "whatsappMsgEs": "Hola GBS, quiero cotizar la Banda PU Grado Alimenticio. Mi aplicacion es:",
+      "whatsappMsgEn": "Hi GBS, I want to quote the Food-Grade PU Belt. My application is:"
+    },
+    {
+      "slug": "banda-pvc-industrial",
+      "nameEs": "Banda PVC Industrial",
+      "nameEn": "Industrial PVC Belt",
+      "shortDescEs": "Cloruro de polivinilo para logística, empaque y transporte general de cajas y paquetes.",
+      "shortDescEn": "Polyvinyl chloride for logistics, packaging, and general transport of boxes and packages.",
+      "fullDescEs": "Banda de PVC de alta calidad para aplicaciones de manejo general. Económica, resistente y versátil. Disponible con distintos coeficientes de fricción, espesores y acabados para adaptarse a centros de distribución, bandas de empaque y clasificación.",
+      "fullDescEn": "High-quality PVC belt for general handling applications. Economical, durable, and versatile. Available with different friction coefficients, thicknesses, and finishes for distribution centers, packaging, and sorting belts.",
+      "image": "/images/products/banda-pvc.jpeg",
+      "specs": {
+        "material": "PVC (cloruro de polivinilo)",
+        "foodGrade": "Opcional FDA",
+        "widthRange": "hasta 3000mm",
+        "tempRange": "-10°C a +70°C",
+        "surface": "Lisa, antideslizante, texturizada"
+      },
+      "applications": [
+        "logistica",
+        "empaque",
+        "alimentos",
+        "manufactura"
+      ],
+      "whatsappMsgEs": "Hola GBS, quiero cotizar Banda PVC Industrial. Mi aplicación es:",
+      "whatsappMsgEn": "Hi GBS, I want to quote the Industrial PVC Belt. My application is:"
+    },
+    {
+      "slug": "banda-modular-plastica",
+      "nameEs": "Banda Modular Plástica",
+      "nameEn": "Plastic Modular Belt",
+      "shortDescEs": "Módulos de polietileno/polipropileno unidos por varillas. Ideal para curvas, pendientes y lavado intenso.",
+      "shortDescEn": "Polyethylene/polypropylene modules joined by rods. Ideal for curves, inclines, and intense washing.",
+      "fullDescEs": "Banda construida por módulos plásticos interconectados con varillas, que permiten configuraciones rectas, curvas, espirales y elevaciones. Alta resistencia química, facilidad de reemplazo modular (solo se cambia la pieza dañada) y grado alimenticio. Ampliamente usada en bebidas, alimentos, panificación y empaque.",
+      "fullDescEn": "Belt built from interlocking plastic modules joined by rods, enabling straight, curved, spiral, and inclined configurations. High chemical resistance, easy modular replacement (only damaged module is swapped), and food-grade. Widely used in beverages, food, bakery, and packaging.",
+      "image": "/images/products/banda-modular.jpeg",
+      "specs": {
+        "material": "Polietileno, polipropileno, acetal",
+        "foodGrade": "FDA y EU compliant",
+        "widthRange": "50mm - 3000mm",
+        "tempRange": "-40°C a +110°C según material",
+        "surface": "Plana, con tacos, perforada"
+      },
+      "applications": [
+        "alimentos",
+        "bebidas",
+        "panificacion",
+        "empaque",
+        "farmaceutica"
+      ],
+      "whatsappMsgEs": "Hola GBS, quiero cotizar Banda Modular Plástica. Mi aplicación es:",
+      "whatsappMsgEn": "Hi GBS, I want to quote the Plastic Modular Belt. My application is:"
+    },
+    {
+      "slug": "banda-silicona",
+      "nameEs": "Banda Silicona",
+      "nameEn": "Silicone Belt",
+      "shortDescEs": "Alta resistencia a temperatura y antiadherente. Ideal para hornos de panificación y productos pegajosos.",
+      "shortDescEn": "High temperature resistance and non-stick. Ideal for bakery ovens and sticky products.",
+      "fullDescEs": "Banda de silicona específica para ambientes de alta temperatura hasta 230°C de uso continuo. Superficie antiadherente que evita que productos pegajosos como masas, caramelos o chocolates se queden en la banda. Aplicación principal: hornos de panificación, confitería, industria cárnica con cocción en línea.",
+      "fullDescEn": "Silicone belt specific for high-temperature environments up to 230°C continuous use. Non-stick surface prevents sticky products such as doughs, candies, or chocolates from adhering. Main applications: bakery ovens, confectionery, meat industry with in-line cooking.",
+      "image": "/images/products/industria-bebidas-lacteos.jpg",
+      "specs": {
+        "material": "Silicona reforzada con fibra",
+        "foodGrade": "FDA compliant",
+        "widthRange": "hasta 2000mm",
+        "tempRange": "-60°C a +230°C",
+        "surface": "Lisa antiadherente"
+      },
+      "applications": [
+        "panificacion",
+        "confiteria",
+        "carnicos"
+      ],
+      "whatsappMsgEs": "Hola GBS, quiero cotizar Banda de Silicona. Mi aplicación es:",
+      "whatsappMsgEn": "Hi GBS, I want to quote the Silicone Belt. My application is:"
+    },
+    {
+      "slug": "malla-acero-inoxidable-sanitaria",
+      "nameEs": "Malla de Acero Inoxidable Sanitaria",
+      "nameEn": "Sanitary Stainless Steel Mesh",
+      "shortDescEs": "Malla metálica AISI 304 para hornos, congeladores y procesos con transferencia de calor/frío.",
+      "shortDescEn": "AISI 304 metallic mesh for ovens, freezers, and heat/cold transfer processes.",
+      "fullDescEs": "Malla de acero inoxidable AISI 304 (opcional 316) diseñada para transporte en ambientes extremos: hornos de túnel, enfriadores, congeladores, esterilizadores. Permite circulación de aire o fluidos a través de la banda. Larga vida útil en procesos continuos 24/7 con limpieza química intensiva.",
+      "fullDescEn": "AISI 304 stainless steel mesh (optional 316) designed for transport in extreme environments: tunnel ovens, coolers, freezers, sterilizers. Allows air or fluid circulation through the belt. Long service life in 24/7 continuous processes with intensive chemical cleaning.",
+      "image": "/images/products/malla-acero-inox.jpeg",
+      "specs": {
+        "material": "Acero inoxidable AISI 304 / 316",
+        "foodGrade": "FDA y EU compliant",
+        "widthRange": "hasta 3000mm",
+        "tempRange": "-100°C a +600°C",
+        "surface": "Malla balanceada, compuesta o eslabonada"
+      },
+      "applications": [
+        "panificacion",
+        "carnicos",
+        "congelados",
+        "farmaceutica"
+      ],
+      "whatsappMsgEs": "Hola GBS, quiero cotizar Malla Sanitaria Acero Inoxidable. Mi aplicación es:",
+      "whatsappMsgEn": "Hi GBS, I want to quote the Sanitary Stainless Steel Mesh. My application is:"
+    }
+  ]
+}

@@ -1,0 +1,135 @@
+{
+  "industries": [
+    {
+      "slug": "cemento",
+      "nameEs": "Cemento",
+      "nameEn": "Cement",
+      "icon": "Factory",
+      "heroImage": "/images/industries/cemento.jpg",
+      "shortDescEs": "Transporte de clínker, caliza, cemento y materias primas bajo condiciones de alta temperatura y abrasión.",
+      "shortDescEn": "Clinker, limestone, cement, and raw material handling under high-temperature and abrasive conditions.",
+      "fullDescEs": "La industria cementera demanda bandas capaces de soportar simultáneamente altas temperaturas (clínker saliendo del horno), alta abrasión (caliza, escoria) y operaciones continuas 24/7. Diseñamos sistemas con bandas resistentes a temperatura clase T2/T3, estructuras IP con mantenibilidad prioritaria y componentes premium que aseguran operación continua sin paradas imprevistas.",
+      "fullDescEn": "The cement industry demands belts capable of simultaneously withstanding high temperatures (clinker exiting the kiln), high abrasion (limestone, slag), and 24/7 continuous operations. We design systems with T2/T3 heat-resistant belts, IP structures with maintainability prioritized, and premium components that ensure continuous operation without unexpected downtime.",
+      "recommendedProducts": [
+        "banda-resistente-temperatura",
+        "banda-caucho-st-antiabrasiva",
+        "banda-caucho-multi-ply-ep"
+      ],
+      "conditions": [
+        "Alta temperatura",
+        "Abrasión severa",
+        "Operación 24/7",
+        "Polvo cementero"
+      ]
+    },
+    {
+      "slug": "mineria-agregados",
+      "nameEs": "Minería y Agregados",
+      "nameEn": "Mining and Aggregates",
+      "icon": "Mountain",
+      "heroImage": "/images/industries/mineria-agregados.jpeg",
+      "shortDescEs": "Bandas ST y multi-ply para transporte de mineral, carbón, arena y grava en operaciones de alta exigencia.",
+      "shortDescEn": "ST and multi-ply belts for ore, coal, sand, and gravel handling in high-demand operations.",
+      "fullDescEs": "La minería y agregados imponen las condiciones más severas: material abrasivo, impacto de caída, tensiones altas por tramos largos, humedad, polvo y operación intensiva. Especificamos bandas de caucho ST (cables de acero) y multi-ply con cubierta Grado X o Y bajo DIN 22102, raspadores secundarios, camas de impacto y estructuras dimensionadas bajo CEMA para durabilidad extrema.",
+      "fullDescEn": "Mining and aggregates impose the harshest conditions: abrasive material, drop impact, high tensions from long runs, moisture, dust, and intensive operation. We specify ST (steel cord) and multi-ply rubber belts with Grade X or Y covers under DIN 22102, secondary cleaners, impact beds, and CEMA-dimensioned structures for extreme durability.",
+      "recommendedProducts": [
+        "banda-caucho-st-antiabrasiva",
+        "banda-resistente-impacto",
+        "banda-caucho-multi-ply-ep"
+      ],
+      "conditions": [
+        "Abrasión severa",
+        "Impacto por caída",
+        "Humedad",
+        "Tramos largos"
+      ]
+    },
+    {
+      "slug": "alimentos-bebidas",
+      "nameEs": "Alimentos y Bebidas",
+      "nameEn": "Food and Beverage",
+      "icon": "UtensilsCrossed",
+      "heroImage": "/images/industries/alimentos.jpg",
+      "shortDescEs": "Bandas sanitarias FDA para lácteos, panificación, cárnicos, bebidas y procesos con lavado CIP.",
+      "shortDescEn": "FDA sanitary belts for dairy, bakery, meat, beverage, and CIP-washing processes.",
+      "fullDescEs": "La industria alimenticia requiere bandas certificadas FDA 21 CFR y EU 10/2011 para contacto directo con alimentos, superficies no porosas, resistencia a lavado CIP con químicos agresivos, y construcción sanitaria que prevenga contaminación. Nuestras bandas de PU, modulares plásticas y mallas de acero inoxidable cumplen el estándar sanitario de multinacionales del sector.",
+      "fullDescEn": "The food industry requires belts certified FDA 21 CFR and EU 10/2011 for direct food contact, non-porous surfaces, resistance to CIP washing with aggressive chemicals, and sanitary construction preventing contamination. Our PU, plastic modular, and stainless steel mesh belts meet the sanitary standard of multinational sector players.",
+      "recommendedProducts": [
+        "banda-pu-termoplastica",
+        "banda-modular-plastica",
+        "malla-acero-inoxidable-sanitaria",
+        "banda-silicona"
+      ],
+      "conditions": [
+        "Grado FDA",
+        "Lavado CIP frecuente",
+        "Temperatura variable",
+        "Humedad constante"
+      ]
+    },
+    {
+      "slug": "logistica-empaque",
+      "nameEs": "Logística y Empaque",
+      "nameEn": "Logistics and Packaging",
+      "icon": "Package",
+      "heroImage": "/images/industries/logistica.jpg",
+      "shortDescEs": "Bandas PVC y modulares para transporte de cajas, paquetes y unidades discretas en centros de distribución.",
+      "shortDescEn": "PVC and modular belts for box, package, and discrete unit handling in distribution centers.",
+      "fullDescEs": "Centros de distribución y líneas de empaque requieren bandas con alto coeficiente de fricción para transporte estable de cajas, capacidad de trabajar con curvas, pendientes y clasificadores. Especificamos bandas de PVC industrial y modulares plásticas con configuraciones adaptadas al layout específico del cliente.",
+      "fullDescEn": "Distribution centers and packaging lines require belts with high friction coefficient for stable box handling, ability to work with curves, inclines, and sorters. We specify industrial PVC and plastic modular belts with configurations adapted to client's specific layout.",
+      "recommendedProducts": [
+        "banda-pvc-industrial",
+        "banda-modular-plastica"
+      ],
+      "conditions": [
+        "Curvas",
+        "Clasificación",
+        "Alta velocidad",
+        "Cambio frecuente de producto"
+      ]
+    },
+    {
+      "slug": "puertos",
+      "nameEs": "Puertos",
+      "nameEn": "Ports",
+      "icon": "Ship",
+      "heroImage": "/images/industries/port-coal.jpeg",
+      "shortDescEs": "Sistemas de transporte portuario de gran capacidad para carbón, granel mineral y carga agrícola.",
+      "shortDescEn": "Large-capacity port handling systems for coal, bulk mineral, and agricultural cargo.",
+      "fullDescEs": "Los puertos operan con volúmenes masivos de material granel que requieren sistemas de alta capacidad, bandas anchas (hasta 2400mm), tramos largos con tensión elevada, y exposición continua a la humedad salina. Especificamos bandas ST con cubierta anti-abrasión y estructuras con tratamiento anticorrosivo para puertos marítimos y fluviales.",
+      "fullDescEn": "Ports operate with massive bulk material volumes requiring high-capacity systems, wide belts (up to 2400mm), long high-tension runs, and continuous exposure to saline moisture. We specify ST belts with anti-abrasion covers and anti-corrosion treated structures for maritime and fluvial ports.",
+      "recommendedProducts": [
+        "banda-caucho-st-antiabrasiva",
+        "banda-resistente-impacto"
+      ],
+      "conditions": [
+        "Humedad salina",
+        "Volumen masivo",
+        "Anchos grandes",
+        "Tramos largos"
+      ]
+    },
+    {
+      "slug": "farmaceutica",
+      "nameEs": "Farmacéutica",
+      "nameEn": "Pharmaceutical",
+      "icon": "FlaskConical",
+      "heroImage": "/images/industries/farmaceutica.jpg",
+      "shortDescEs": "Bandas con estándar GMP y validaciones FDA para procesos de producción farmacéutica.",
+      "shortDescEn": "GMP-standard belts with FDA validation for pharmaceutical production processes.",
+      "fullDescEs": "La industria farmacéutica exige trazabilidad completa de materiales, validaciones documentadas, bandas de ultra-alta limpiabilidad y sistemas que cumplen Buenas Prácticas de Manufactura (GMP). Suministramos bandas modulares y PU con documentación técnica completa, certificados FDA, y diseños sanitarios que minimizan zonas muertas bacteriológicas.",
+      "fullDescEn": "The pharmaceutical industry demands complete material traceability, documented validations, ultra-high-cleanability belts, and systems complying with Good Manufacturing Practices (GMP). We supply modular and PU belts with complete technical documentation, FDA certificates, and sanitary designs minimizing bacterial dead zones.",
+      "recommendedProducts": [
+        "banda-pu-termoplastica",
+        "banda-modular-plastica",
+        "malla-acero-inoxidable-sanitaria"
+      ],
+      "conditions": [
+        "GMP",
+        "Trazabilidad",
+        "Ultra-limpieza",
+        "Validación documental"
+      ]
+    }
+  ]
+}

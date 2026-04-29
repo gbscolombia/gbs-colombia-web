@@ -1,0 +1,14 @@
+{
+  "clients": [
+    { "id": "cemex", "name": "Cemex", "logoUrl": "https://logo.clearbit.com/cemex.com", "fallback": "/clients/cemex.png", "industry": "cemento" },
+    { "id": "bavaria", "name": "Bavaria", "logoUrl": "https://logo.clearbit.com/bavaria.co", "fallback": "/clients/bavaria.png", "industry": "bebidas" },
+    { "id": "cementos-tequendama", "name": "Cementos Tequendama", "logoUrl": "https://logo.clearbit.com/cementostequendama.com", "fallback": "/clients/cementos-tequendama.png", "industry": "cemento" },
+    { "id": "somex", "name": "Somex", "fallback": "/clients/somex.png", "industry": "mineria" },
+    { "id": "corona", "name": "Corona", "logoUrl": "https://logo.clearbit.com/corona.co", "fallback": "/clients/corona.png", "industry": "ceramica" },
+    { "id": "la-migueria", "name": "La Miguería", "fallback": "/clients/la-migueria.png", "industry": "panificacion" },
+    { "id": "tapon-corona", "name": "Tapón Corona de Colombia", "fallback": "/clients/tapon-corona.png", "industry": "empaque" },
+    { "id": "courierbox", "name": "Courierbox Colombia", "fallback": "/clients/courierbox.png", "industry": "logistica" },
+    { "id": "red-carnica", "name": "Red Cárnica", "fallback": "/clients/red-carnica.png", "industry": "carnicos" },
+    { "id": "lamiempaques", "name": "Lamiempaques", "fallback": "/clients/lamiempaques.png", "industry": "empaque" }
+  ]
+}
