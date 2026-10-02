@@ -27,7 +27,7 @@ export async function generateMetadata({
   const ind = await getIndustryBySlug(slug);
   if (!ind) return {};
   return {
-    title: locale === 'en' ? ind.nameEn : ind.nameEs,
+    title: (locale === 'en' ? ind.seoTitleEn : ind.seoTitleEs) ?? (locale === 'en' ? ind.nameEn : ind.nameEs),
     description: locale === 'en' ? ind.shortDescEn : ind.shortDescEs,
     alternates: pageAlternates(locale, '/industrias/[slug]', { slug })
   };

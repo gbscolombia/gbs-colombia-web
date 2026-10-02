@@ -2,6 +2,8 @@
   "industries": [
     {
       "slug": "cemento",
+      "seoTitleEs": "Bandas Transportadoras para la Industria del Cemento",
+      "seoTitleEn": "Conveyor Belts for the Cement Industry",
       "nameEs": "Cemento",
       "nameEn": "Cement",
       "icon": "Factory",
@@ -24,6 +26,8 @@
     },
     {
       "slug": "mineria-agregados",
+      "seoTitleEs": "Bandas Transportadoras para Minería y Agregados",
+      "seoTitleEn": "Conveyor Belts for Mining and Aggregates",
       "nameEs": "Minería y Agregados",
       "nameEn": "Mining and Aggregates",
       "icon": "Mountain",
@@ -46,6 +50,8 @@
     },
     {
       "slug": "alimentos-bebidas",
+      "seoTitleEs": "Bandas Transportadoras para Alimentos y Bebidas",
+      "seoTitleEn": "Conveyor Belts for Food and Beverage",
       "nameEs": "Alimentos y Bebidas",
       "nameEn": "Food and Beverage",
       "icon": "UtensilsCrossed",
@@ -69,6 +75,8 @@
     },
     {
       "slug": "logistica-empaque",
+      "seoTitleEs": "Bandas Transportadoras para Logística y Empaque",
+      "seoTitleEn": "Conveyor Belts for Logistics and Packaging",
       "nameEs": "Logística y Empaque",
       "nameEn": "Logistics and Packaging",
       "icon": "Package",
@@ -90,6 +98,8 @@
     },
     {
       "slug": "puertos",
+      "seoTitleEs": "Bandas Transportadoras para Puertos y Carga a Granel",
+      "seoTitleEn": "Conveyor Belts for Ports and Bulk Handling",
       "nameEs": "Puertos",
       "nameEn": "Ports",
       "icon": "Ship",
@@ -111,6 +121,8 @@
     },
     {
       "slug": "farmaceutica",
+      "seoTitleEs": "Bandas Transportadoras para la Industria Farmacéutica",
+      "seoTitleEn": "Conveyor Belts for the Pharmaceutical Industry",
       "nameEs": "Farmacéutica",
       "nameEn": "Pharmaceutical",
       "icon": "FlaskConical",

@@ -2,6 +2,9 @@ import data from '@/content/industries/industries.json';
 
 export interface Industry {
   slug: string;
+  /** SEO <title> (brand suffix is added by the layout template). */
+  seoTitleEs?: string;
+  seoTitleEn?: string;
   nameEs: string;
   nameEn: string;
   icon: string;
