@@ -31,7 +31,6 @@ export const routing = defineRouting({
     '/recursos': { es: '/recursos', en: '/resources' },
     '/recursos/glosario': { es: '/recursos/glosario', en: '/resources/glossary' },
     '/contacto': { es: '/contacto', en: '/contact' },
-    '/portal-pse': { es: '/portal-pse', en: '/payment-portal' },
     '/verificar/[code]': { es: '/verificar/[code]', en: '/verify/[code]' },
     '/lp/[campaign]': { es: '/lp/[campaign]', en: '/lp/[campaign]' }
   }

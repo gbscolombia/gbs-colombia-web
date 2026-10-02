@@ -9,6 +9,7 @@ import { getCaseStudies, getCaseStudyBySlug } from '@/lib/content/cases';
 import { JsonLd } from '@/components/seo/JsonLd';
 import { articleSchema } from '@/components/seo/schemas';
 import { site } from '@/lib/constants/site';
+import { pageAlternates } from '@/lib/seo/alternates';
 
 export async function generateStaticParams() {
   const cases = await getCaseStudies();
@@ -26,6 +27,7 @@ export async function generateMetadata({
   return {
     title: locale === 'en' ? c.titleEn : c.titleEs,
     description: locale === 'en' ? c.summaryEn : c.summaryEs,
+    alternates: pageAlternates(locale, '/casos-de-exito/[slug]', { slug }),
     openGraph: {
       type: 'article',
       images: [c.heroImage]

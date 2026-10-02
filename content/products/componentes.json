@@ -4,11 +4,19 @@
   "titleEn": "Conveyor Belt Components",
   "descriptionEs": "Rodillos CEMA, poleas motrices y tensoras, raspadores, faldones, guías y estructuras IP. Componentes premium para sistemas de transporte industrial.",
   "descriptionEn": "CEMA idlers, drive and take-up pulleys, belt cleaners, skirting, guides, and IP structural beams. Premium components for industrial conveyor systems.",
+  "seoTitleEs": "Rodillos Transportadores CEMA, Poleas y Raspadores | GBS Colombia",
+  "seoDescriptionEs": "Rodillos transportadores industriales CEMA series C, D y E, poleas, raspadores, faldones y variadores para sistemas de bandas transportadoras.",
+  "seoTitleEn": "CEMA Conveyor Idlers, Pulleys and Belt Cleaners | GBS Colombia",
+  "seoDescriptionEn": "CEMA series C, D and E industrial conveyor idlers, pulleys, belt cleaners, skirts and drives for conveyor belt systems.",
+  "sectionTitleEs": "Rodillos Transportadores Industriales y Componentes",
+  "sectionTitleEn": "Industrial Conveyor Idlers and Components",
   "heroImage": "/images/products/rodillos.jpg",
   "updatedAt": "2026-04-01",
   "products": [
     {
       "slug": "rodillos-cema-serie-c-d-e",
+      "altEs": "Rodillos transportadores industriales CEMA series C, D y E en acero",
+      "altEn": "CEMA series C, D and E industrial steel conveyor idlers",
       "nameEs": "Rodillos CEMA Serie C / D / E",
       "nameEn": "CEMA Series C / D / E Idlers",
       "shortDescEs": "Rodillos de carga, retorno e impacto clasificados bajo CEMA. Rodamientos sellados premium.",
@@ -30,6 +38,8 @@
     },
     {
       "slug": "poleas-motrices-tensoras",
+      "altEs": "Poleas motrices y tensoras para transportador de banda",
+      "altEn": "Drive and tension pulleys for belt conveyors",
       "nameEs": "Poleas Motrices y Tensoras",
       "nameEn": "Drive and Take-Up Pulleys",
       "shortDescEs": "Poleas de diámetro y ancho según CEMA, con revestimiento de caucho diamantado o cerámico.",
@@ -51,6 +61,8 @@
     },
     {
       "slug": "raspadores-primarios-secundarios",
+      "altEs": "Raspadores primario y secundario para limpieza de banda transportadora",
+      "altEn": "Primary and secondary belt cleaners for conveyor belts",
       "nameEs": "Raspadores Primarios y Secundarios",
       "nameEn": "Primary and Secondary Belt Cleaners",
       "shortDescEs": "Sistemas de limpieza de banda con cuchillas de poliuretano o tungsteno. Reducen arrastre y derrame.",
@@ -75,6 +87,8 @@
     },
     {
       "slug": "faldones-guias-laterales",
+      "altEs": "Faldones y guías laterales para contención de material en transportadores",
+      "altEn": "Skirts and side guides for material containment on conveyors",
       "nameEs": "Faldones y Guías Laterales",
       "nameEn": "Skirting and Side Guides",
       "shortDescEs": "Sellos de faldón con poliuretano y guías laterales para evitar derrames y desalineamiento.",
@@ -98,6 +112,8 @@
     },
     {
       "slug": "variadores-velocidad-emotron",
+      "altEs": "Variador de velocidad Emotron para motor de transportador",
+      "altEn": "Emotron variable speed drive for conveyor motors",
       "nameEs": "Variadores de Velocidad Emotron",
       "nameEn": "Emotron Variable Frequency Drives",
       "shortDescEs": "Variadores de frecuencia (VFD) marca Emotron para arranque suave, control de torque y monitoreo de carga en transportadores y procesos industriales.",

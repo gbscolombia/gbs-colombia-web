@@ -39,7 +39,6 @@
     "diagnostic": "Diagnóstico Técnico",
     "assistant": "Asistente IA",
     "contact": "Contacto",
-    "paymentPortal": "Portal PSE",
     "openMenu": "Abrir menú",
     "closeMenu": "Cerrar menú",
     "diagnosticCTA": "Diagnóstico",
@@ -51,7 +50,7 @@
   },
   "hero": {
     "kicker": "INGENIERÍA EN MOVIMIENTO",
-    "title": "Movimiento que Impulsa tu Industria",
+    "title": "Fabricación de Equipos y Bandas Transportadoras para la Industria",
     "subtitle": "Suministramos, diseñamos y fabricamos bandas transportadoras bajo norma CEMA, con el respaldo internacional de GBS International Group.",
     "ctaPrimary": "Iniciar Diagnóstico Técnico",
     "ctaSecondary": "Hablar con Ingeniero",
@@ -81,7 +80,7 @@
     "pillar2Title": "Soporte técnico directo",
     "pillar2Text": "Asesoría de ingeniería vía WhatsApp sin filtros comerciales. Respuesta técnica rápida para que tu operación no se detenga nunca.",
     "pillar3Title": "Respaldo internacional",
-    "pillar3Text": "Más de 8 años en Colombia como miembros de GBS International Group. Cobertura nacional con estándares internacionales."
+    "pillar3Text": "Más de 10 años en Colombia como miembros de GBS International Group. Cobertura nacional con estándares internacionales."
   },
   "portfolio": {
     "title": "Nuestro Portafolio",
@@ -340,35 +339,6 @@
     "diagnosticBlockCta": "Iniciar diagnóstico",
     "social": "Síguenos"
   },
-  "paymentPortal": {
-    "title": "Portal de Pago",
-    "subtitle": "Tres formas seguras de pagar tu factura GBS Colombia: Openpay (PSE / tarjetas), QR Bancolombia o llave Bre-B desde la app de tu banco.",
-    "instructions": "Al hacer clic en \"Pagar ahora\" abrimos la pasarela Openpay donde podrás completar tu transacción por PSE, tarjeta débito o crédito.",
-    "contactAdvice": "Si tienes dudas sobre tu factura, contáctanos por WhatsApp.",
-    "payNow": "Pagar ahora con Openpay",
-    "secureLabel": "Conexión cifrada SSL",
-    "providerLabel": "Procesado por",
-    "methodPSE": "PSE",
-    "methodCard": "Tarjeta débito / crédito",
-    "fineprint": "Tus datos viajan cifrados directamente al proveedor. GBS Colombia no almacena ni accede a tu información financiera.",
-    "needInvoice": "¿No tienes el número de factura?",
-    "openInNewTab": "Se abrirá en una pestaña nueva.",
-    "tabOpenpay": "Openpay (PSE + tarjetas)",
-    "tabBancolombia": "QR Bancolombia",
-    "tabBreB": "Llave Bre-B",
-    "qrTitle": "Escanea desde la app de tu banco",
-    "qrSubtitle": "Compatible con la app Bancolombia, Nequi y cualquier app que lea QR de pagos en Colombia.",
-    "qrSaveButton": "Descargar QR",
-    "breBTitle": "Paga con tu llave Bre-B",
-    "breBSubtitle": "Bre-B es la red de pagos inmediatos del Banco de la República. Funciona desde cualquier banco colombiano.",
-    "breBKey": "Llave Bre-B",
-    "breBCopy": "Copiar llave",
-    "breBCopied": "¡Copiado!",
-    "breBHowTo": "Cómo pagar:",
-    "breBStep1": "Abre la app de tu banco y entra a la sección de transferencias o pagos Bre-B.",
-    "breBStep2": "Selecciona \"Pagar con llave\" y pega o digita la llave de GBS Colombia.",
-    "breBStep3": "Confirma el monto y la descripción de tu factura. El pago llega en segundos."
-  },
   "verify": {
     "title": "Verificación de Brief Técnico",
     "validTitle": "Brief Válido",
@@ -457,6 +427,8 @@
   "seo": {
     "homeTitle": "Ingeniería en Movimiento",
     "homeDescription": "Suministro, diseño y fabricación de bandas transportadoras industriales bajo norma CEMA. Sede Pereira, cobertura nacional. Miembros de GBS International Group.",
+    "homeSeoTitle": "Fabricantes de Bandas Transportadoras y Rodillos en Colombia | GBS",
+    "homeSeoDescription": "Soluciones integrales para la industria: fabricación de rodillos, bandas de caucho, modulares, PVC/PU y servicio técnico de vulcanizado. Cotiza tu proyecto.",
     "aboutTitle": "Nosotros",
     "aboutDescription": "Empresa colombiana de ingeniería fundada en 2016. Miembros de GBS International Group.",
     "engineeringTitle": "Ingeniería",
@@ -482,8 +454,6 @@
     "glossaryTitle": "Glosario Técnico",
     "glossaryDescription": "Términos técnicos de bandas transportadoras en ES y EN.",
     "contactTitle": "Contacto",
-    "contactDescription": "Habla directo con un ingeniero GBS por WhatsApp.",
-    "paymentTitle": "Portal PSE",
-    "paymentDescription": "Portal de pagos PSE para clientes GBS Colombia."
+    "contactDescription": "Habla directo con un ingeniero GBS por WhatsApp."
   }
 }

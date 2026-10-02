@@ -4,12 +4,20 @@
   "titleEn": "Heavy-Duty Conveyor Belts",
   "descriptionEs": "Bandas de caucho diseñadas para las operaciones más exigentes: minería, cemento, agregados y puertos. Máxima resistencia a abrasión, impacto y condiciones severas bajo norma CEMA Belt Book 7ma Edición.",
   "descriptionEn": "Rubber belts engineered for the most demanding operations: mining, cement, aggregates, and ports. Maximum resistance to abrasion, impact, and severe conditions under CEMA Belt Book 7th Edition standards.",
+  "seoTitleEs": "Bandas Transportadoras de Caucho para Industria y Minería | GBS Colombia",
+  "seoDescriptionEs": "Catálogo de bandas pesadas de alta resistencia, chevron y antiabrasivas. Venta, empalmes y mantenimiento para trabajo pesado industrial.",
+  "seoTitleEn": "Rubber Conveyor Belts for Industry and Mining | GBS Colombia",
+  "seoDescriptionEn": "Catalog of high-strength, chevron and abrasion-resistant heavy-duty belts. Sales, splicing and maintenance for heavy industrial duty.",
+  "sectionTitleEs": "Bandas de Caucho Pesadas",
+  "sectionTitleEn": "Heavy-Duty Rubber Belts",
   "heroImage": "/images/hero/Port Coal.jpeg",
   "catalogPdf": "/catalogos/catalogo-bandas-pesadas.pdf",
   "updatedAt": "2026-04-01",
   "products": [
     {
       "slug": "banda-caucho-st-antiabrasiva",
+      "altEs": "Banda transportadora de caucho con alma de acero ST antiabrasiva para minería y cemento",
+      "altEn": "Steel-cord (ST) abrasion-resistant rubber conveyor belt for mining and cement",
       "nameEs": "Banda de Caucho ST Antiabrasiva",
       "nameEn": "ST Abrasion-Resistant Rubber Belt",
       "shortDescEs": "Carcasa de cables de acero ST para alta tensión. Cubierta antiabrasiva Grado Y para minería y agregados.",
@@ -35,6 +43,8 @@
     },
     {
       "slug": "banda-caucho-multi-ply-ep",
+      "altEs": "Banda transportadora de caucho multi-ply EP para trabajo pesado industrial",
+      "altEn": "Multi-ply EP rubber conveyor belt for heavy industrial duty",
       "nameEs": "Banda Caucho Multi-Ply EP",
       "nameEn": "Multi-Ply EP Rubber Belt",
       "shortDescEs": "Carcasa textil EP (poliéster-nylon) con múltiples capas. Versátil para aplicaciones pesadas estándar.",
@@ -59,6 +69,8 @@
     },
     {
       "slug": "banda-resistente-temperatura",
+      "altEs": "Banda transportadora de caucho resistente a alta temperatura para trabajo pesado",
+      "altEn": "High-temperature resistant rubber conveyor belt for heavy-duty service",
       "nameEs": "Banda Resistente a Temperatura",
       "nameEn": "Heat-Resistant Belt",
       "shortDescEs": "Cubiertas Clase T2/T3 para clínker caliente, fundición y materiales incandescentes.",
@@ -83,6 +95,8 @@
     },
     {
       "slug": "banda-resistente-impacto",
+      "altEs": "Banda transportadora de caucho resistente al impacto para zonas de carga",
+      "altEn": "Impact-resistant rubber conveyor belt for loading zones",
       "nameEs": "Banda Resistente al Impacto",
       "nameEn": "Impact-Resistant Belt",
       "shortDescEs": "Carcasa reforzada para puntos de caída con material grueso. Absorbe impacto sin rasgarse.",
@@ -107,6 +121,8 @@
     },
     {
       "slug": "banda-resistente-aceite-quimicos",
+      "altEs": "Banda transportadora de caucho resistente a aceites y químicos",
+      "altEn": "Oil and chemical resistant rubber conveyor belt",
       "nameEs": "Banda Resistente a Aceites y Químicos",
       "nameEn": "Oil and Chemical-Resistant Belt",
       "shortDescEs": "Cubiertas especiales para materiales con hidrocarburos, grasas animales o agentes químicos.",

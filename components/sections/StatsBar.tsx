@@ -1,10 +1,11 @@
 import { getTranslations } from 'next-intl/server';
 import { Container, Section, StatCard } from '@/components/ui';
+import { yearsOperating } from '@/lib/constants/site';
 
 export async function StatsBar() {
   const t = await getTranslations('stats');
   const stats = [
-    { value: 8, suffix: '+', label: t('years') },
+    { value: yearsOperating, suffix: '+', label: t('years') },
     { value: '24/7', label: t('support') },
     { value: 100, suffix: '%', label: t('coverage') }
   ];

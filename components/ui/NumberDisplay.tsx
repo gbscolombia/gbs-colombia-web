@@ -59,9 +59,17 @@ export function NumberDisplay({
   return (
     <div ref={ref} className={cn('flex flex-col gap-2', className)}>
       <div className="text-display font-heading font-bold leading-none text-[var(--brand-cyan)]">
-        {prefix}
-        {isNumeric ? current : value}
-        {suffix}
+        {/* Final value always in the HTML (crawlers, no-JS, screen readers); the counting number is decorative. */}
+        <span className="sr-only">
+          {prefix}
+          {value}
+          {suffix}
+        </span>
+        <span aria-hidden="true">
+          {prefix}
+          {isNumeric ? current : value}
+          {suffix}
+        </span>
       </div>
       {label && (
         <div className="text-sm text-white/70 uppercase tracking-wider font-medium">{label}</div>

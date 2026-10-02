@@ -243,7 +243,7 @@ export function BriefPDFDocument({
           <View>
             <Text style={styles.kicker}>{L.verify}</Text>
             <Text style={{ fontSize: 10, marginTop: 4 }}>
-              co.gbsint.com/verificar/{brief.code}
+              www.gbscolombia.com/verificar/{brief.code}
             </Text>
           </View>
           <Image src={qrDataUrl} style={{ width: 72, height: 72 }} />

@@ -18,6 +18,7 @@ import { SocialIcons } from '@/components/layout/SocialIcons';
 import { ContactForm } from '@/components/contact/ContactForm';
 import { buildWhatsappUrl } from '@/lib/utils/whatsapp';
 import { site } from '@/lib/constants/site';
+import { pageAlternates } from '@/lib/seo/alternates';
 
 export async function generateMetadata({
   params
@@ -26,7 +27,10 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'seo' });
-  return { title: t('contactTitle'), description: t('contactDescription') };
+  return {
+    title: t('contactTitle'), description: t('contactDescription'),
+    alternates: pageAlternates(locale, '/contacto')
+  };
 }
 
 const MAP_QUERY = 'GBS Colombia SAS, Pereira, Risaralda, Colombia';

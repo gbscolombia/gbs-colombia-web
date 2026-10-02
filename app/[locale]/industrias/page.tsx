@@ -5,6 +5,7 @@ import { Factory, Pickaxe, Utensils, Package, Anchor, FlaskConical, Building2, T
 import { Link } from '@/lib/i18n/routing';
 import { Container, Section } from '@/components/ui';
 import { getIndustries } from '@/lib/content/industries';
+import { pageAlternates } from '@/lib/seo/alternates';
 
 const iconMap = { Factory, Pickaxe, Utensils, Package, Anchor, FlaskConical, Building2, Truck, Boxes } as const;
 
@@ -15,7 +16,10 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'seo' });
-  return { title: t('industriesTitle'), description: t('industriesDescription') };
+  return {
+    title: t('industriesTitle'), description: t('industriesDescription'),
+    alternates: pageAlternates(locale, '/industrias')
+  };
 }
 
 export default async function IndustriesPage({

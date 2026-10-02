@@ -46,7 +46,10 @@ const nextConfig: NextConfig = {
       { source: '/soluci%C3%B3n_-_bandas_de_trabajo_pesado/:path*', destination: '/catalogo/bandas-pesadas', permanent: true },
       { source: '/proyectos_llave_en_mano/:path*', destination: '/casos-de-exito', permanent: true },
       { source: '/suministro_de_bandas/:path*', destination: '/catalogo', permanent: true },
-      { source: '/portal_de_pago_pse/:path*', destination: '/portal-pse', permanent: true },
+      { source: '/portal_de_pago_pse/:path*', destination: '/contacto', permanent: false },
+      // Payment page removed (payment methods are being redefined): send old links to Contact. Recover the old page from git history if needed.
+      { source: '/portal-pse', destination: '/contacto', permanent: false },
+      { source: '/en/payment-portal', destination: '/en/contact', permanent: false },
       { source: '/p%C3%A1gina_de_inicio_(home)_3/:path*', destination: '/', permanent: true }
     ];
   },

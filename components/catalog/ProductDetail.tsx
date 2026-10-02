@@ -7,13 +7,17 @@ import { Button, Container, Section, Heading, Breadcrumbs, Card } from '@/compon
 import { getCategory, getProductBySlug, type ProductCategory } from '@/lib/content/products';
 import { buildWhatsappUrl } from '@/lib/utils/whatsapp';
 import { site } from '@/lib/constants/site';
+import { pageAlternates, pageUrl } from '@/lib/seo/alternates';
+import { JsonLd } from '@/components/seo/JsonLd';
+import { breadcrumbSchema, productSchema, serviceSchema } from '@/components/seo/schemas';
 
 export async function renderProductMetadata(category: ProductCategory, slug: string, locale: string) {
   const product = await getProductBySlug(category, slug);
   if (!product) return {};
   return {
     title: locale === 'en' ? product.nameEn : product.nameEs,
-    description: locale === 'en' ? product.shortDescEn : product.shortDescEs
+    description: locale === 'en' ? product.shortDescEn : product.shortDescEs,
+    alternates: pageAlternates(locale, '/catalogo/' + category + '/[slug]', { slug })
   };
 }
 
@@ -36,8 +40,24 @@ export async function ProductDetail({ category, slug }: Props) {
   const whatsappMsg = locale === 'en' ? product.whatsappMsgEn : product.whatsappMsgEs;
   const related = cat.products.filter((p) => p.slug !== product.slug).slice(0, 3);
 
+  const schemaUrl = pageUrl(locale, '/catalogo/' + category + '/[slug]', { slug });
+  const schemaDesc = locale === 'en' ? product.shortDescEn : product.shortDescEs;
+  // Optimized (resized) image URL: the source files are several MB each.
+  const schemaImage = `${site.url}/_next/image?url=${encodeURIComponent(product.image)}&w=1200&q=75`;
+  const schemas = [
+    category === 'servicios'
+      ? serviceSchema({ name, description: schemaDesc, url: schemaUrl })
+      : productSchema({ name, description: schemaDesc, image: schemaImage, category: catName, url: schemaUrl }),
+    breadcrumbSchema([
+      { name: t('title'), url: pageUrl(locale, '/catalogo') },
+      { name: catName, url: pageUrl(locale, '/catalogo/' + category) },
+      { name, url: schemaUrl }
+    ])
+  ];
+
   return (
     <>
+      <JsonLd data={schemas} />
       <Section tone="neutral" padding="sm">
         <Container size="wide">
           <Breadcrumbs
@@ -56,7 +76,7 @@ export async function ProductDetail({ category, slug }: Props) {
             <div className="relative w-full max-w-[480px] mx-auto lg:mx-0 aspect-[4/3] max-h-[420px] rounded-2xl overflow-hidden bg-[var(--neutral-100)]">
               <Image
                 src={product.image}
-                alt={name}
+                alt={(locale === 'en' ? product.altEn : product.altEs) ?? name}
                 fill
                 priority
                 className="object-cover"
@@ -141,7 +161,7 @@ export async function ProductDetail({ category, slug }: Props) {
                     className="group block bg-[var(--neutral-50)] rounded-2xl overflow-hidden border border-[var(--border-subtle)] hover:border-[var(--brand-blue)]/30 transition-all"
                   >
                     <div className="aspect-[4/3] relative">
-                      <Image src={p.image} alt={n} fill className="object-cover" sizes="33vw" />
+                      <Image src={p.image} alt={(locale === 'en' ? p.altEn : p.altEs) ?? n} fill className="object-cover" sizes="33vw" />
                     </div>
                     <div className="p-5">
                       <h3 className="font-heading font-bold text-[var(--brand-navy)] mb-2">{n}</h3>

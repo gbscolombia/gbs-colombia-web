@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Container, Section } from '@/components/ui';
 import { AssistantChat } from '@/components/assistant/AssistantChat';
+import { pageAlternates } from '@/lib/seo/alternates';
 
 export async function generateMetadata({
   params
@@ -13,6 +14,7 @@ export async function generateMetadata({
   return {
     title: t('title'),
     description: t('subtitle'),
+    alternates: pageAlternates(locale, '/asistente-ia'),
     robots: { index: true, follow: true }
   };
 }

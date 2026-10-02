@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Container, Section } from '@/components/ui';
 import { DiagnosticoWizardV2 } from '@/components/diagnostic/DiagnosticoWizardV2';
+import { pageAlternates } from '@/lib/seo/alternates';
 
 export async function generateMetadata({
   params
@@ -10,7 +11,10 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'seo' });
-  return { title: t('diagnosticTitle'), description: t('diagnosticDescription') };
+  return {
+    title: t('diagnosticTitle'), description: t('diagnosticDescription'),
+    alternates: pageAlternates(locale, '/diagnostico')
+  };
 }
 
 export default async function DiagnosticoPage({

@@ -3,6 +3,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Container, Section } from '@/components/ui';
 import { GlossarySearch } from '@/components/glossary/GlossarySearch';
 import { getGlossaryTerms } from '@/lib/content/glossary';
+import { pageAlternates } from '@/lib/seo/alternates';
 
 export async function generateMetadata({
   params
@@ -11,7 +12,10 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'seo' });
-  return { title: t('glossaryTitle'), description: t('glossaryDescription') };
+  return {
+    title: t('glossaryTitle'), description: t('glossaryDescription'),
+    alternates: pageAlternates(locale, '/recursos/glosario')
+  };
 }
 
 export default async function GlossaryPage({

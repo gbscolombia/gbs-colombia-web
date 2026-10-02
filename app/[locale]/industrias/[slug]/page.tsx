@@ -9,6 +9,7 @@ import { getIndustries, getIndustryBySlug } from '@/lib/content/industries';
 import { getProducts } from '@/lib/content/products';
 import { buildWhatsappUrl } from '@/lib/utils/whatsapp';
 import { site } from '@/lib/constants/site';
+import { pageAlternates } from '@/lib/seo/alternates';
 
 const iconMap = { Factory, Pickaxe, Utensils, Package, Anchor, FlaskConical, Building2, Truck, Boxes } as const;
 
@@ -27,7 +28,8 @@ export async function generateMetadata({
   if (!ind) return {};
   return {
     title: locale === 'en' ? ind.nameEn : ind.nameEs,
-    description: locale === 'en' ? ind.shortDescEn : ind.shortDescEs
+    description: locale === 'en' ? ind.shortDescEn : ind.shortDescEs,
+    alternates: pageAlternates(locale, '/industrias/[slug]', { slug })
   };
 }
 

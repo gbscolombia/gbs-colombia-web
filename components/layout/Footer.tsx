@@ -65,7 +65,6 @@ export function Footer() {
               <FooterLink href="/industrias">{tNav('industries')}</FooterLink>
               <FooterLink href="/casos-de-exito">{tNav('cases')}</FooterLink>
               <FooterLink href="/recursos/glosario">{tNav('glossary')}</FooterLink>
-              <FooterLink href="/portal-pse">{tNav('paymentPortal')}</FooterLink>
             </ul>
           </div>
 
@@ -116,11 +115,6 @@ export function Footer() {
         <Container size="wide" className="py-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs">
           <p className="text-white/60">{t('legal')}</p>
           <ul className="flex flex-wrap items-center gap-x-5 gap-y-1">
-            <li>
-              <Link href="/portal-pse" className="hover:text-[var(--brand-cyan)] transition">
-                {tNav('paymentPortal')}
-              </Link>
-            </li>
             <li>
               <a href="/sitemap.xml" className="hover:text-[var(--brand-cyan)] transition">
                 {t('sitemap')}

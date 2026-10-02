@@ -4,12 +4,20 @@
   "titleEn": "Light-Duty and Modular Belts",
   "descriptionEs": "Bandas termoplásticas y modulares para industria alimenticia, farmacéutica, logística, empaque y agroindustria. Cumplen normativas FDA 21 CFR y EU 10/2011 para contacto con alimentos.",
   "descriptionEn": "Thermoplastic and modular belts for food, pharmaceutical, logistics, packaging, and agribusiness industries. FDA 21 CFR and EU 10/2011 compliant for food contact.",
+  "seoTitleEs": "Bandas Modulares Plásticas y PVC para Alimentos | GBS Colombia",
+  "seoDescriptionEs": "Bandas transportadoras livianas, modulares, PVC y poliuretano para la industria de alimentos y empaque. Repuestos y asesoría técnica.",
+  "seoTitleEn": "Plastic Modular and PVC Belts for Food Processing | GBS Colombia",
+  "seoDescriptionEn": "Light-duty, modular, PVC and polyurethane conveyor belts for the food and packaging industry. Spare parts and technical advice.",
+  "sectionTitleEs": "Bandas Modulares, PVC y Poliuretano",
+  "sectionTitleEn": "Modular, PVC and Polyurethane Belts",
   "heroImage": "/images/hero/Banda-papa.jpeg",
   "catalogPdf": "/catalogos/catalogo-bandas-livianas.pdf",
   "updatedAt": "2026-04-01",
   "products": [
     {
       "slug": "banda-pu-termoplastica",
+      "altEs": "Banda transportadora de poliuretano termoplástico (PU) para línea industrial",
+      "altEn": "Thermoplastic polyurethane (PU) conveyor belt for industrial lines",
       "nameEs": "Banda PU Termoplástica",
       "nameEn": "Thermoplastic PU Belt",
       "shortDescEs": "Poliuretano grado alimenticio FDA. Superficie lisa, resistente a cortes, fácil de limpiar.",
@@ -36,6 +44,8 @@
     },
     {
       "slug": "banda-pu-grado-alimenticio",
+      "altEs": "Banda transportadora de poliuretano grado alimenticio para procesos de alimentos",
+      "altEn": "Food-grade polyurethane conveyor belt for food processing",
       "nameEs": "Banda PU Grado Alimenticio",
       "nameEn": "Food-Grade PU Belt",
       "shortDescEs": "Banda de poliuretano blanco con certificacion FDA 21 CFR para contacto directo con alimentos. Resistente a aceites, grasas y lavado intensivo CIP.",
@@ -61,6 +71,8 @@
     },
     {
       "slug": "banda-pvc-industrial",
+      "altEs": "Banda transportadora de PVC industrial para empaque y logística",
+      "altEn": "Industrial PVC conveyor belt for packaging and logistics",
       "nameEs": "Banda PVC Industrial",
       "nameEn": "Industrial PVC Belt",
       "shortDescEs": "Cloruro de polivinilo para logística, empaque y transporte general de cajas y paquetes.",
@@ -86,6 +98,8 @@
     },
     {
       "slug": "banda-modular-plastica",
+      "altEs": "Banda modular plástica para línea de alimentos",
+      "altEn": "Plastic modular belt for food processing lines",
       "nameEs": "Banda Modular Plástica",
       "nameEn": "Plastic Modular Belt",
       "shortDescEs": "Módulos de polietileno/polipropileno unidos por varillas. Ideal para curvas, pendientes y lavado intenso.",
@@ -112,6 +126,8 @@
     },
     {
       "slug": "banda-silicona",
+      "altEs": "Banda transportadora de silicona para industria de alimentos y bebidas",
+      "altEn": "Silicone conveyor belt for the food and beverage industry",
       "nameEs": "Banda Silicona",
       "nameEn": "Silicone Belt",
       "shortDescEs": "Alta resistencia a temperatura y antiadherente. Ideal para hornos de panificación y productos pegajosos.",
@@ -136,6 +152,8 @@
     },
     {
       "slug": "malla-acero-inoxidable-sanitaria",
+      "altEs": "Malla transportadora de acero inoxidable sanitaria para procesos de alimentos",
+      "altEn": "Sanitary stainless steel wire mesh conveyor belt for food processing",
       "nameEs": "Malla de Acero Inoxidable Sanitaria",
       "nameEn": "Sanitary Stainless Steel Mesh",
       "shortDescEs": "Malla metálica AISI 304 para hornos, congeladores y procesos con transferencia de calor/frío.",

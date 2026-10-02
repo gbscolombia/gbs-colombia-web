@@ -5,6 +5,7 @@ import { ArrowRight, Activity } from 'lucide-react';
 import { Link } from '@/lib/i18n/routing';
 import { Button, Container, Section, Card } from '@/components/ui';
 import { getCaseStudies } from '@/lib/content/cases';
+import { pageAlternates } from '@/lib/seo/alternates';
 
 export async function generateMetadata({
   params
@@ -13,7 +14,10 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'seo' });
-  return { title: t('casesTitle'), description: t('casesDescription') };
+  return {
+    title: t('casesTitle'), description: t('casesDescription'),
+    alternates: pageAlternates(locale, '/casos-de-exito')
+  };
 }
 
 export default async function CasesPage({

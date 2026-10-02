@@ -1,7 +1,7 @@
 export const site = {
   name: 'GBS Colombia',
   legalName: 'GBS Colombia SAS',
-  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://co.gbsint.com',
+  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://www.gbscolombia.com',
   taglineEs: 'Ingeniería en Movimiento',
   taglineEn: 'Engineering in Motion',
   founded: 2016,
@@ -19,13 +19,7 @@ export const site = {
   instagramHandle: process.env.NEXT_PUBLIC_INSTAGRAM_HANDLE || 'gbscolom',
   facebook: process.env.NEXT_PUBLIC_FACEBOOK_URL || 'https://www.facebook.com/profile.php?id=61577897436038',
   parentGroup: 'GBS International Group',
-  parentGroupUrl: 'https://www.gbsint.com',
-  openpayCheckoutUrl:
-    process.env.NEXT_PUBLIC_OPENPAY_CHECKOUT_URL ||
-    'https://api.openpay.co/v1/mf2aki791k0jyfzpmgnp/open-checkout',
-  // Bancolombia Bre-B (Banco de la República's instant-payments network)
-  breBKey: process.env.NEXT_PUBLIC_BREB_KEY || '0090074452',
-  bancolombiaQrImage: '/images/payment/qr-bancolombia-bre-b.png'
+  parentGroupUrl: 'https://www.gbsint.com'
 } as const;
 
 export const yearsOperating = new Date().getFullYear() - site.founded;

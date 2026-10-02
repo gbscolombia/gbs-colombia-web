@@ -4,6 +4,7 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Container, Section, Heading, Card } from '@/components/ui';
 import { Globe2, Target, Eye, ShieldCheck } from 'lucide-react';
 import { site, yearsOperating } from '@/lib/constants/site';
+import { pageAlternates } from '@/lib/seo/alternates';
 
 export async function generateMetadata({
   params
@@ -12,7 +13,10 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'seo' });
-  return { title: t('aboutTitle'), description: t('aboutDescription') };
+  return {
+    title: t('aboutTitle'), description: t('aboutDescription'),
+    alternates: pageAlternates(locale, '/nosotros')
+  };
 }
 
 export default async function AboutPage({

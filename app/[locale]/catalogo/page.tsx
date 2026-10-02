@@ -5,6 +5,7 @@ import { ArrowRight } from 'lucide-react';
 import { Link } from '@/lib/i18n/routing';
 import { Container, Section, Heading } from '@/components/ui';
 import { getCategories } from '@/lib/content/products';
+import { pageAlternates } from '@/lib/seo/alternates';
 
 export async function generateMetadata({
   params
@@ -13,7 +14,10 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'seo' });
-  return { title: t('catalogTitle'), description: t('catalogDescription') };
+  return {
+    title: t('catalogTitle'), description: t('catalogDescription'),
+    alternates: pageAlternates(locale, '/catalogo')
+  };
 }
 
 const categoryHrefs: Record<string, string> = {

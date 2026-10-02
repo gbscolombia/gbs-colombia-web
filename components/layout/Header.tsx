@@ -68,7 +68,6 @@ export function Header() {
                 { href: '/asistente-ia', label: t('assistant') }
               ]}
             />
-            <NavLink href="/portal-pse">{t('paymentPortal')}</NavLink>
           </nav>
 
           {/* Right side */}

@@ -23,7 +23,7 @@ export function ProductCard({ product, category, locale, viewLabel }: ProductCar
       <div className="aspect-[4/3] relative bg-[var(--neutral-100)] overflow-hidden">
         <Image
           src={product.image}
-          alt={name}
+          alt={(locale === 'en' ? product.altEn : product.altEs) ?? name}
           fill
           className="object-cover group-hover:scale-105 transition-transform duration-500"
           sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"

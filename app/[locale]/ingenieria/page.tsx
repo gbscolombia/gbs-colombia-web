@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { getTranslations, setRequestLocale } from 'next-intl/server';
 import { Activity, ClipboardCheck, Ruler, Factory, Wrench, HeartPulse, ArrowRight, ShieldCheck } from 'lucide-react';
 import { Button, Container, Section, Heading } from '@/components/ui';
+import { pageAlternates } from '@/lib/seo/alternates';
 
 export async function generateMetadata({
   params
@@ -10,7 +11,10 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'seo' });
-  return { title: t('engineeringTitle'), description: t('engineeringDescription') };
+  return {
+    title: t('engineeringTitle'), description: t('engineeringDescription'),
+    alternates: pageAlternates(locale, '/ingenieria')
+  };
 }
 
 export default async function EngineeringPage({

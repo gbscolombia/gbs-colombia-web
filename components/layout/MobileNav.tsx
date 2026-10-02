@@ -38,8 +38,7 @@ export function MobileNav({ open, onClose }: MobileNavProps) {
     { href: '/casos-de-exito', label: t('cases') },
     { href: '/recursos/glosario', label: t('glossary') },
     { href: '/asistente-ia', label: t('assistant') },
-    { href: '/contacto', label: t('contact') },
-    { href: '/portal-pse', label: t('paymentPortal') }
+    { href: '/contacto', label: t('contact') }
   ];
 
   return (

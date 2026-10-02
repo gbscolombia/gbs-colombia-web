@@ -7,6 +7,9 @@ import { ProductCard } from '@/components/catalog/ProductCard';
 import { getCategory, type ProductCategory } from '@/lib/content/products';
 import { buildWhatsappUrl } from '@/lib/utils/whatsapp';
 import { site } from '@/lib/constants/site';
+import { pageAlternates, pageUrl } from '@/lib/seo/alternates';
+import { JsonLd } from '@/components/seo/JsonLd';
+import { breadcrumbSchema } from '@/components/seo/schemas';
 
 export async function renderCategoryMetadata(
   category: ProductCategory,
@@ -16,7 +19,14 @@ export async function renderCategoryMetadata(
   if (!cat) return {};
   const title = locale === 'en' ? cat.titleEn : cat.titleEs;
   const description = locale === 'en' ? cat.descriptionEn : cat.descriptionEs;
-  return { title, description };
+  const seoTitle = locale === 'en' ? cat.seoTitleEn : cat.seoTitleEs;
+  const seoDescription = locale === 'en' ? cat.seoDescriptionEn : cat.seoDescriptionEs;
+  return {
+    // `absolute` skips the "· GBS Colombia" template: SEO titles already carry the brand.
+    title: seoTitle ? { absolute: seoTitle } : title,
+    description: seoDescription ?? description,
+    alternates: pageAlternates(locale, '/catalogo/' + category)
+  };
 }
 
 export async function CategoryPage({ category }: { category: ProductCategory }) {
@@ -31,6 +41,12 @@ export async function CategoryPage({ category }: { category: ProductCategory }) 
 
   return (
     <>
+      <JsonLd
+        data={breadcrumbSchema([
+          { name: t('title'), url: pageUrl(locale, '/catalogo') },
+          { name: title, url: pageUrl(locale, '/catalogo/' + category) }
+        ])}
+      />
       <Section tone="navy" padding="lg">
         <Container size="wide">
           <div className="grid lg:grid-cols-[1.1fr,1fr] gap-10 lg:gap-16 items-center">
@@ -75,7 +91,8 @@ export async function CategoryPage({ category }: { category: ProductCategory }) 
         <Container size="wide">
           <div className="mb-10">
             <Heading level={2} size="lg">
-              {locale === 'en' ? 'Products' : 'Productos'}
+              {(locale === 'en' ? cat.sectionTitleEn : cat.sectionTitleEs) ??
+                (locale === 'en' ? 'Products' : 'Productos')}
             </Heading>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">

@@ -41,8 +41,11 @@ export function localBusinessSchema() {
     '@type': 'LocalBusiness',
     '@id': `${site.url}#localbusiness`,
     name: site.legalName,
+    description:
+      'Fabricantes de equipos transportadores, rodillos industriales y bandas de caucho, PVC y modulares para la industria en Colombia.',
     url: site.url,
     image: `${site.url}/images/gbs-logo.png`,
+    areaServed: { '@type': 'Country', name: 'Colombia' },
     telephone: site.phone,
     email: site.email,
     priceRange: '$$$',

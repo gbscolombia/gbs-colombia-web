@@ -3,6 +3,7 @@ import { getLocale, getTranslations, setRequestLocale } from 'next-intl/server';
 import { BookOpen, FileText, Activity, ArrowRight } from 'lucide-react';
 import { Link } from '@/lib/i18n/routing';
 import { Container, Section, Card } from '@/components/ui';
+import { pageAlternates } from '@/lib/seo/alternates';
 
 export async function generateMetadata({
   params
@@ -11,7 +12,10 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'seo' });
-  return { title: t('resourcesTitle'), description: t('resourcesDescription') };
+  return {
+    title: t('resourcesTitle'), description: t('resourcesDescription'),
+    alternates: pageAlternates(locale, '/recursos')
+  };
 }
 
 export default async function ResourcesPage({

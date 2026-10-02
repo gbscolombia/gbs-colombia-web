@@ -4,11 +4,19 @@
   "titleEn": "Technical Services",
   "descriptionEs": "Instalación, empalmes vulcanizados y mecánicos, mantenimiento preventivo y correctivo, proyectos llave en mano.",
   "descriptionEn": "Installation, vulcanized and mechanical splicing, preventive and corrective maintenance, turn-key projects.",
+  "seoTitleEs": "Fabricación de Rodillos Transportadores y Mantenimiento | GBS Colombia",
+  "seoDescriptionEs": "Diseño y fabricación de rodillos y equipos transportadores a medida. Servicio técnico, vulcanizado y empalmes para operación continua.",
+  "seoTitleEn": "Conveyor Idler Manufacturing and Maintenance | GBS Colombia",
+  "seoDescriptionEn": "Custom design and manufacturing of idlers and conveyor equipment. Technical service, vulcanizing and splicing for continuous operation.",
+  "sectionTitleEs": "Servicios Técnicos de Vulcanizado, Empalmes y Mantenimiento",
+  "sectionTitleEn": "Technical Services: Vulcanizing, Splicing and Maintenance",
   "heroImage": "/images/hero/logistica.jpeg",
   "updatedAt": "2026-04-01",
   "products": [
     {
       "slug": "instalacion-puesta-en-marcha",
+      "altEs": "Servicio de instalación y puesta en marcha de bandas transportadoras",
+      "altEn": "Conveyor belt installation and commissioning service",
       "nameEs": "Instalación y Puesta en Marcha",
       "nameEn": "Installation and Commissioning",
       "shortDescEs": "Montaje completo con alineación de precisión y arranque asistido por ingenieros GBS.",
@@ -29,6 +37,8 @@
     },
     {
       "slug": "empalmes-vulcanizados",
+      "altEs": "Empalme vulcanizado en caliente de banda transportadora de caucho",
+      "altEn": "Hot vulcanized splice on a rubber conveyor belt",
       "nameEs": "Empalmes Vulcanizados",
       "nameEn": "Vulcanized Splicing",
       "shortDescEs": "Empalmes en caliente para bandas de trabajo pesado. Máxima resistencia y durabilidad.",
@@ -52,6 +62,8 @@
     },
     {
       "slug": "empalmes-mecanicos",
+      "altEs": "Empalme mecánico de banda transportadora",
+      "altEn": "Mechanical splice on a conveyor belt",
       "nameEs": "Empalmes Mecánicos",
       "nameEn": "Mechanical Splicing",
       "shortDescEs": "Grapas de empalme para bandas livianas y soluciones rápidas en campo.",
@@ -75,6 +87,8 @@
     },
     {
       "slug": "mantenimiento-preventivo-correctivo",
+      "altEs": "Mantenimiento preventivo y correctivo de transportadores de banda",
+      "altEn": "Preventive and corrective maintenance of belt conveyors",
       "nameEs": "Mantenimiento Preventivo y Correctivo",
       "nameEn": "Preventive and Corrective Maintenance",
       "shortDescEs": "Planes de mantenimiento programado y respuesta a fallas. Evita paradas inesperadas.",
@@ -95,6 +109,8 @@
     },
     {
       "slug": "proyectos-llave-en-mano",
+      "altEs": "Proyecto llave en mano de transportador de banda industrial",
+      "altEn": "Turn-key industrial belt conveyor project",
       "nameEs": "Proyectos Llave en Mano",
       "nameEn": "Turn-Key Projects",
       "shortDescEs": "Ingeniería, suministro, fabricación, instalación y puesta en marcha en un solo contrato.",

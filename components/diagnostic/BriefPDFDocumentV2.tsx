@@ -393,7 +393,7 @@ export function BriefPDFDocumentV2({
       title={`GBS Brief ${brief.code}`}
       author="GBS Colombia SAS"
       subject={isFab ? t.pathFab : t.pathSupply}
-      creator="co.gbsint.com"
+      creator="www.gbscolombia.com"
     >
       <Page size="A4" style={s.page}>
         {/* ---- HERO ---- */}
@@ -554,7 +554,7 @@ export function BriefPDFDocumentV2({
             <View style={s.qrBlock}>
               <View>
                 <Text style={s.qrText}>{t.verify}</Text>
-                <Text style={s.qrUrl}>co.gbsint.com/verificar/{brief.code}</Text>
+                <Text style={s.qrUrl}>www.gbscolombia.com/verificar/{brief.code}</Text>
                 <Text style={{ fontSize: 8, color: TEXT_DIM, marginTop: 8 }}>
                   GBS Colombia SAS · Pereira, Risaralda · WhatsApp +57 301 114 4826 · info@gbscolombia.com
                 </Text>

@@ -39,7 +39,6 @@
     "diagnostic": "Technical Diagnostic",
     "assistant": "AI Assistant",
     "contact": "Contact",
-    "paymentPortal": "Payment Portal",
     "openMenu": "Open menu",
     "closeMenu": "Close menu",
     "diagnosticCTA": "Diagnostic",
@@ -51,7 +50,7 @@
   },
   "hero": {
     "kicker": "ENGINEERING IN MOTION",
-    "title": "Motion That Drives Your Industry",
+    "title": "Conveyor Equipment and Conveyor Belt Manufacturing for Industry",
     "subtitle": "We supply, engineer, and manufacture conveyor belts under CEMA standards, backed by GBS International Group.",
     "ctaPrimary": "Start Technical Diagnostic",
     "ctaSecondary": "Talk to an Engineer",
@@ -81,7 +80,7 @@
     "pillar2Title": "Direct Technical Support",
     "pillar2Text": "Engineering advice via WhatsApp with no sales filters. Fast technical response so your operation never stops.",
     "pillar3Title": "International Backing",
-    "pillar3Text": "Over 8 years in Colombia as members of GBS International Group. National coverage with international standards."
+    "pillar3Text": "Over 10 years in Colombia as members of GBS International Group. National coverage with international standards."
   },
   "portfolio": {
     "title": "Our Portfolio",
@@ -340,35 +339,6 @@
     "diagnosticBlockCta": "Start diagnostic",
     "social": "Follow us"
   },
-  "paymentPortal": {
-    "title": "Payment Portal",
-    "subtitle": "Three secure ways to pay your GBS Colombia invoice: Openpay (PSE / cards), Bancolombia QR or Bre-B key from your bank app.",
-    "instructions": "Clicking \"Pay now\" opens the Openpay payment gateway where you can complete your transaction via PSE, debit or credit card.",
-    "contactAdvice": "Questions about your invoice? Contact us on WhatsApp.",
-    "payNow": "Pay now with Openpay",
-    "secureLabel": "SSL-encrypted connection",
-    "providerLabel": "Processed by",
-    "methodPSE": "PSE",
-    "methodCard": "Debit / credit card",
-    "fineprint": "Your data is encrypted end-to-end to the provider. GBS Colombia does not store or access your financial information.",
-    "needInvoice": "Don't have your invoice number?",
-    "openInNewTab": "Opens in a new tab.",
-    "tabOpenpay": "Openpay (PSE + cards)",
-    "tabBancolombia": "Bancolombia QR",
-    "tabBreB": "Bre-B key",
-    "qrTitle": "Scan from your bank app",
-    "qrSubtitle": "Compatible with the Bancolombia app, Nequi and any Colombian payment-QR reader.",
-    "qrSaveButton": "Download QR",
-    "breBTitle": "Pay with your Bre-B key",
-    "breBSubtitle": "Bre-B is Colombia's central-bank instant-payments network. Works from any Colombian bank.",
-    "breBKey": "Bre-B key",
-    "breBCopy": "Copy key",
-    "breBCopied": "Copied!",
-    "breBHowTo": "How to pay:",
-    "breBStep1": "Open your bank app and go to the Bre-B transfers or payments section.",
-    "breBStep2": "Select \"Pay with key\" and paste or type GBS Colombia's key.",
-    "breBStep3": "Confirm the amount and your invoice description. The payment lands in seconds."
-  },
   "verify": {
     "title": "Technical Brief Verification",
     "validTitle": "Valid Brief",
@@ -457,6 +427,8 @@
   "seo": {
     "homeTitle": "Engineering in Motion",
     "homeDescription": "Supply, engineering, and manufacturing of industrial conveyor belts under CEMA standards. Headquartered in Pereira, nationwide coverage. Members of GBS International Group.",
+    "homeSeoTitle": "Conveyor Belt and Idler Manufacturers in Colombia | GBS",
+    "homeSeoDescription": "Complete industrial solutions: idler manufacturing, rubber, modular, PVC/PU belts and technical vulcanizing service. Quote your project.",
     "aboutTitle": "About",
     "aboutDescription": "Colombian engineering company founded in 2016. Members of GBS International Group.",
     "engineeringTitle": "Engineering",
@@ -482,8 +454,6 @@
     "glossaryTitle": "Technical Glossary",
     "glossaryDescription": "Conveyor belt technical terms in ES and EN.",
     "contactTitle": "Contact",
-    "contactDescription": "Talk directly to a GBS engineer via WhatsApp.",
-    "paymentTitle": "PSE Portal",
-    "paymentDescription": "PSE payment portal for GBS Colombia clients."
+    "contactDescription": "Talk directly to a GBS engineer via WhatsApp."
   }
 }

@@ -41,6 +41,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'seo' });
   const tagline = locale === 'en' ? site.taglineEn : site.taglineEs;
+  const ogImage = locale === 'en' ? '/images/og-default-en.png' : '/images/og-default-es.png';
 
   return {
     metadataBase: new URL(site.url),
@@ -61,25 +62,19 @@ export async function generateMetadata({
       'ingeniería',
       'transporte industrial'
     ],
-    alternates: {
-      canonical: '/',
-      languages: {
-        es: '/',
-        en: '/en'
-      }
-    },
     openGraph: {
       type: 'website',
       siteName: site.name,
       title: `${site.name} · ${tagline}`,
       description: t('homeDescription'),
       locale: locale === 'en' ? 'en_US' : 'es_CO',
-      url: site.url
+      images: [{ url: ogImage, width: 1200, height: 630, alt: `${site.name} · ${tagline}` }]
     },
     twitter: {
       card: 'summary_large_image',
       title: `${site.name} · ${tagline}`,
-      description: t('homeDescription')
+      description: t('homeDescription'),
+      images: [ogImage]
     },
     icons: {
       icon: '/favicon.jpg',

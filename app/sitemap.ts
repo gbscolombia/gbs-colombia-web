@@ -4,6 +4,7 @@ import { routing } from '@/lib/i18n/routing';
 import { getCategories, getProducts } from '@/lib/content/products';
 import { getIndustries } from '@/lib/content/industries';
 import { getCaseStudies } from '@/lib/content/cases';
+import { pageUrl } from '@/lib/seo/alternates';
 
 const STATIC_PATHS_ES = [
   '',
@@ -15,8 +16,7 @@ const STATIC_PATHS_ES = [
   '/recursos',
   '/recursos/glosario',
   '/diagnostico',
-  '/contacto',
-  '/portal-pse'
+  '/contacto'
 ];
 
 const STATIC_PATHS_EN: Record<string, string> = {
@@ -29,8 +29,7 @@ const STATIC_PATHS_EN: Record<string, string> = {
   '/recursos': '/en/resources',
   '/recursos/glosario': '/en/resources/glossary',
   '/diagnostico': '/en/diagnostic',
-  '/contacto': '/en/contact',
-  '/portal-pse': '/en/payment-portal'
+  '/contacto': '/en/contact'
 };
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
@@ -77,31 +76,50 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
   const products = await getProducts();
   for (const p of products) {
+    const tpl = `/catalogo/${p.category}/[slug]`;
     urls.push({
-      url: `${site.url}/catalogo/${p.category}/${p.slug}`,
-      lastModified: now,
+      url: pageUrl('es', tpl, { slug: p.slug }),
+      lastModified: p.updatedAt ? new Date(p.updatedAt) : now,
       changeFrequency: 'monthly',
-      priority: 0.7
+      priority: 0.7,
+      alternates: {
+        languages: {
+          es: pageUrl('es', tpl, { slug: p.slug }),
+          en: pageUrl('en', tpl, { slug: p.slug })
+        }
+      }
     });
   }
 
   const industries = await getIndustries();
   for (const ind of industries) {
     urls.push({
-      url: `${site.url}/industrias/${ind.slug}`,
+      url: pageUrl('es', '/industrias/[slug]', { slug: ind.slug }),
       lastModified: now,
       changeFrequency: 'monthly',
-      priority: 0.7
+      priority: 0.7,
+      alternates: {
+        languages: {
+          es: pageUrl('es', '/industrias/[slug]', { slug: ind.slug }),
+          en: pageUrl('en', '/industrias/[slug]', { slug: ind.slug })
+        }
+      }
     });
   }
 
   const cases = await getCaseStudies();
   for (const c of cases) {
     urls.push({
-      url: `${site.url}/casos-de-exito/${c.slug}`,
+      url: pageUrl('es', '/casos-de-exito/[slug]', { slug: c.slug }),
       lastModified: c.createdAt ? new Date(c.createdAt) : now,
       changeFrequency: 'yearly',
-      priority: 0.6
+      priority: 0.6,
+      alternates: {
+        languages: {
+          es: pageUrl('es', '/casos-de-exito/[slug]', { slug: c.slug }),
+          en: pageUrl('en', '/casos-de-exito/[slug]', { slug: c.slug })
+        }
+      }
     });
   }
 

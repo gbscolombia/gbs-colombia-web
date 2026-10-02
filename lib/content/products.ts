@@ -22,6 +22,9 @@ export interface Product {
   applications: string[];
   whatsappMsgEs: string;
   whatsappMsgEn: string;
+  /** Descriptive image alt text (technical, keyword-rich). Falls back to the product name. */
+  altEs?: string;
+  altEn?: string;
   category?: ProductCategory;
   updatedAt?: string;
 }
@@ -34,6 +37,14 @@ export interface ProductCategoryData {
   descriptionEn: string;
   heroImage: string;
   catalogPdf?: string;
+  /** SEO <title> (used as-is, no site suffix) and meta description for the category page. */
+  seoTitleEs?: string;
+  seoTitleEn?: string;
+  seoDescriptionEs?: string;
+  seoDescriptionEn?: string;
+  /** Keyword-focused <h2> that introduces the product list. */
+  sectionTitleEs?: string;
+  sectionTitleEn?: string;
   updatedAt?: string;
   products: Product[];
 }
