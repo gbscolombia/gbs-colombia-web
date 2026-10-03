@@ -116,6 +116,11 @@ export function Footer() {
           <p className="text-white/60">{t('legal')}</p>
           <ul className="flex flex-wrap items-center gap-x-5 gap-y-1">
             <li>
+              <Link href="/politica-de-privacidad" className="hover:text-[var(--brand-cyan)] transition">
+                {t('privacy')}
+              </Link>
+            </li>
+            <li>
               <a href="/sitemap.xml" className="hover:text-[var(--brand-cyan)] transition">
                 {t('sitemap')}
               </a>

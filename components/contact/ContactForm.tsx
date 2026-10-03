@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Loader2, Send, CheckCircle2 } from 'lucide-react';
 import { Input, Textarea } from '@/components/ui';
+import { Link } from '@/lib/i18n/routing';
 
 export function ContactForm() {
   const t = useTranslations('contact');
@@ -83,6 +84,16 @@ export function ContactForm() {
         value={message}
         onChange={(e) => setMessage(e.target.value)}
       />
+      <p className="text-xs text-[var(--text-secondary)] leading-relaxed">
+        {t('formConsentPre')}{' '}
+        <Link
+          href="/politica-de-privacidad"
+          className="font-semibold text-[var(--brand-blue)] hover:underline"
+        >
+          {t('formConsentLink')}
+        </Link>
+        .
+      </p>
       {error && (
         <div className="rounded-lg bg-[var(--danger)]/10 text-[var(--danger)] text-sm px-4 py-3">{error}</div>
       )}

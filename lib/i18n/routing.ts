@@ -31,6 +31,7 @@ export const routing = defineRouting({
     '/recursos': { es: '/recursos', en: '/resources' },
     '/recursos/glosario': { es: '/recursos/glosario', en: '/resources/glossary' },
     '/contacto': { es: '/contacto', en: '/contact' },
+    '/politica-de-privacidad': { es: '/politica-de-privacidad', en: '/privacy-policy' },
     '/verificar/[code]': { es: '/verificar/[code]', en: '/verify/[code]' },
     '/lp/[campaign]': { es: '/lp/[campaign]', en: '/lp/[campaign]' }
   }

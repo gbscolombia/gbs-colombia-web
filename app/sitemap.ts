@@ -16,7 +16,8 @@ const STATIC_PATHS_ES = [
   '/recursos',
   '/recursos/glosario',
   '/diagnostico',
-  '/contacto'
+  '/contacto',
+  '/politica-de-privacidad'
 ];
 
 const STATIC_PATHS_EN: Record<string, string> = {
@@ -29,7 +30,8 @@ const STATIC_PATHS_EN: Record<string, string> = {
   '/recursos': '/en/resources',
   '/recursos/glosario': '/en/resources/glossary',
   '/diagnostico': '/en/diagnostic',
-  '/contacto': '/en/contact'
+  '/contacto': '/en/contact',
+  '/politica-de-privacidad': '/en/privacy-policy'
 };
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
